@@ -1,10 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Marissa.unity
+- path: Assets/Eli.unity
   isLoaded: 1
-<<<<<<< HEAD
-=======
-  isActive: 0
-- path: Assets/Scenes/TheBest.unity
-  isLoaded: 1
->>>>>>> 2cf547b5412c44d4ecb40e73fa90121566daa840
   isActive: 1
