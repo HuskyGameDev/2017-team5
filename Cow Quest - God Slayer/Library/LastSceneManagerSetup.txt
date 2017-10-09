@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/TheBest.unity
+=======
+- path: Assets/Eli.unity
+>>>>>>> a59b2e8347949c324b841064b0c41576e5673d6c
   isLoaded: 1
   isActive: 1
