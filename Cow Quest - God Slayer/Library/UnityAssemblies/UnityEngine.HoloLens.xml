@@ -54,148 +54,84 @@
         <para>See BaseInputModule.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="T:UnityEngine.XR.WSA.SpatialMappingBase">
-=======
-    <member name="T:UnityEngine.VR.WSA.SpatialMappingBase">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The base class for all spatial mapping components.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.bakePhysics">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.bakePhysics">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>This property specifies whether or not collision data will be generated when computing the surface mesh's triangulation. (Read Only)</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.freezeUpdates">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.freezeUpdates">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Specifies if the component should listen and respond to spatial surface changes.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.halfBoxExtents">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.halfBoxExtents">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The half extents of the bounding box from its center.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.lodType">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.lodType">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The level of detail that should be used when generating surface meshes.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.numUpdatesBeforeRemoval">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.numUpdatesBeforeRemoval">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The number of frames to keep a surface mesh alive for before destroying it after the system has determined that its real world counterpart has been removed.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.secondsBetweenUpdates">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.secondsBetweenUpdates">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The time in seconds between system queries for changes in physical space.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.sphereRadius">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.sphereRadius">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The radius of the bounding sphere volume.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.surfaceParent">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.surfaceParent">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The GameObject that should be the parent of all the component's surface mesh game objects.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingBase.volumeType">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingBase.volumeType">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The surface observer volume to use when querying the system for changes in physical space.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="T:UnityEngine.XR.WSA.SpatialMappingBase.LODType">
-=======
-    <member name="T:UnityEngine.VR.WSA.SpatialMappingBase.LODType">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The number of triangles per cubic meter or level of detail that should be used when creating a surface mesh.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="F:UnityEngine.XR.WSA.SpatialMappingBase.LODType.High">
-=======
-    <member name="F:UnityEngine.VR.WSA.SpatialMappingBase.LODType.High">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Generates surface meshes with the maximum amount of triangles.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="F:UnityEngine.XR.WSA.SpatialMappingBase.LODType.Low">
-=======
-    <member name="F:UnityEngine.VR.WSA.SpatialMappingBase.LODType.Low">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Generates surface meshes with as few triangles as possible.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="F:UnityEngine.XR.WSA.SpatialMappingBase.LODType.Medium">
-=======
-    <member name="F:UnityEngine.VR.WSA.SpatialMappingBase.LODType.Medium">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Generates a medium quality surface mesh.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="M:UnityEngine.XR.WSA.SpatialMappingBase.OnBeginSurfaceEviction(System.Boolean,UnityEngine.XR.WSA.SpatialMappingBase/Surface)">
-=======
-    <member name="M:UnityEngine.VR.WSA.SpatialMappingBase.OnBeginSurfaceEviction(System.Boolean,UnityEngine.VR.WSA.SpatialMappingBase/Surface)">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>This method is called when the system notifies the spatial mapping component that a surface has been removed.</para>
       </summary>
       <param name="shouldBeActiveWhileRemoved"></param>
       <param name="surface"></param>
     </member>
-<<<<<<< HEAD
     <member name="M:UnityEngine.XR.WSA.SpatialMappingBase.OnSurfaceDataReady(UnityEngine.XR.WSA.SpatialMappingBase,UnityEngine.XR.WSA.SurfaceData,System.Boolean,System.Single)">
-=======
-    <member name="M:UnityEngine.VR.WSA.SpatialMappingBase.OnSurfaceDataReady(UnityEngine.VR.WSA.SpatialMappingBase,UnityEngine.VR.WSA.SurfaceData,System.Boolean,System.Single)">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>This method will be called by the system when the surface data has been generated.</para>
       </summary>
@@ -204,137 +140,77 @@
       <param name="outputWritten"></param>
       <param name="elapsedBakeTimeSeconds"></param>
     </member>
-<<<<<<< HEAD
     <member name="T:UnityEngine.XR.WSA.SpatialMappingBase.VolumeType">
-=======
-    <member name="T:UnityEngine.VR.WSA.SpatialMappingBase.VolumeType">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>The surface observer volume type to use when querying the system for changes in physical space.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="F:UnityEngine.XR.WSA.SpatialMappingBase.VolumeType.AxisAlignedBox">
-=======
-    <member name="F:UnityEngine.VR.WSA.SpatialMappingBase.VolumeType.AxisAlignedBox">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>An axis aligned bounding box volume.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="F:UnityEngine.XR.WSA.SpatialMappingBase.VolumeType.Sphere">
-=======
-    <member name="F:UnityEngine.VR.WSA.SpatialMappingBase.VolumeType.Sphere">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>A sphere bounding volume.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="T:UnityEngine.XR.WSA.SpatialMappingCollider">
-=======
-    <member name="T:UnityEngine.VR.WSA.SpatialMappingCollider">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Creates and manages the GameObjects that represent spatial surfaces.  A MeshFilter and MeshCollider will automatically be added to these game objects so that holograms can interact with physical surfaces.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingCollider.enableCollisions">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingCollider.enableCollisions">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Enables/Disables MeshCollider components on all spatial surfaces associated with the SpatialMappingCollider component instance.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingCollider.layer">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingCollider.layer">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Sets the layer on all spatial surfaces associated with the SpatialMappingCollider component instance.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingCollider.material">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingCollider.material">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Sets the PhysicMaterial on all spatial surfaces associated with the SpatialMappingCollider component instance.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="T:UnityEngine.XR.WSA.SpatialMappingRenderer">
-=======
-    <member name="T:UnityEngine.VR.WSA.SpatialMappingRenderer">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Creates and manages the GameObjects that represent spatial surfaces.  A MeshFilter, MeshRenderer, and material will automatically be added to these GameObjects so that the spatial surface can be visualized.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingRenderer.occlusionMaterial">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingRenderer.occlusionMaterial">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>A Material applied to all surface meshes to enable occlusion of holograms by real world objects.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingRenderer.renderState">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingRenderer.renderState">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Controls which Material will be used when rendering a surface mesh.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="P:UnityEngine.XR.WSA.SpatialMappingRenderer.visualMaterial">
-=======
-    <member name="P:UnityEngine.VR.WSA.SpatialMappingRenderer.visualMaterial">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>A material that can be used to visualize the spatial surface.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="T:UnityEngine.XR.WSA.SpatialMappingRenderer.RenderState">
-=======
-    <member name="T:UnityEngine.VR.WSA.SpatialMappingRenderer.RenderState">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Specifies how to render the spatial surfaces associated with the SpatialMappingRenderer component instance.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="F:UnityEngine.XR.WSA.SpatialMappingRenderer.RenderState.None">
-=======
-    <member name="F:UnityEngine.VR.WSA.SpatialMappingRenderer.RenderState.None">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Disables all MeshRenderer components associated with the SpatialMappingRenderer component instance.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="F:UnityEngine.XR.WSA.SpatialMappingRenderer.RenderState.Occlusion">
-=======
-    <member name="F:UnityEngine.VR.WSA.SpatialMappingRenderer.RenderState.Occlusion">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Indicates that the Occlusion material should be used to render the surfaces.</para>
       </summary>
     </member>
-<<<<<<< HEAD
     <member name="F:UnityEngine.XR.WSA.SpatialMappingRenderer.RenderState.Visualization">
-=======
-    <member name="F:UnityEngine.VR.WSA.SpatialMappingRenderer.RenderState.Visualization">
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
       <summary>
         <para>Indicates that the Visualization material should be used to render the surfaces.</para>
       </summary>

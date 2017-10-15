@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Sydney.unity
-=======
-- path: Assets/Scenes/TheBest.unity
->>>>>>> 47b5241021aa5de24e7269d87109fb51f97bec87
+- path: Assets/Scenes/Main Menu.unity
   isLoaded: 1
   isActive: 1
