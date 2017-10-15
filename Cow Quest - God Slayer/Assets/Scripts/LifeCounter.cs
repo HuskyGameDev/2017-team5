@@ -30,5 +30,11 @@ public class LifeCounter : MonoBehaviour {
     {
         lives--;
 
+        if ( lives == 0 )
+        {
+            t.text = "Game Over";
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
+
     }
 }
