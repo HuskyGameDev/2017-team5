@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Sydney.unity
+- path: Assets/Scenes/Marissa.unity
   isLoaded: 1
   isActive: 1
