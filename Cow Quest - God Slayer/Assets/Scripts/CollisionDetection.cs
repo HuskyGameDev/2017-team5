@@ -12,6 +12,7 @@ public class CollisionDetection : MonoBehaviour {
     bool enemyCollide = false;
     bool throwCollide = false;
     GameObject hero;
+    LifeCounter lc = new LifeCounter();
  
     // Use this for initialization
 	void Start () {
@@ -24,18 +25,22 @@ public class CollisionDetection : MonoBehaviour {
         if (collision.gameObject.CompareTag("Enemy"))
         {
             enemyCollide = true;
+            lc.RemoveFromLives();
+            Debug.Log("We hit things");
         } else
         {
             enemyCollide = false;
         }
-        if (collision.gameObject.CompareTag("Throwables"))
+        if (collision.gameObject.CompareTag("Throwables"))  
         {
             throwCollide = true;
+            lc.RemoveFromLives();
+            Debug.Log("Throwable hit you.");
         } else
         {
             throwCollide = false;
         }
-        if(collision.transform.position.x < hero.transform.position.x)
+      /*  if(collision.transform.position.x < hero.transform.position.x)
         {
             right = true;
         } else
@@ -63,6 +68,7 @@ public class CollisionDetection : MonoBehaviour {
         {
             top = false;
         }
+        */
     }
 
     public bool cannotLeft()
