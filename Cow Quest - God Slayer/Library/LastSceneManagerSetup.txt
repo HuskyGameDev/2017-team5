@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Catherine_ChooseText.unity
+=======
+- path: Assets/Scenes/Marissa.unity
+>>>>>>> f3ee7d199560770168dae80df83c7cded06f7ee6
   isLoaded: 1
   isActive: 1
