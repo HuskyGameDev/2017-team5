@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/Marissa.unity
+=======
 - path: Assets/Scenes/Menu.unity
+>>>>>>> c3d1b37383b3f1ea62589dbfa1aececb22d41ba5
   isLoaded: 1
   isActive: 1
