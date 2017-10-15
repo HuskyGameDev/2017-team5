@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/Death.unity
+=======
 - path: Assets/Scenes/Sydney.unity
+>>>>>>> 40cf6dfceeaba88ce616dbec90c95755493d9aa9
   isLoaded: 1
   isActive: 1
