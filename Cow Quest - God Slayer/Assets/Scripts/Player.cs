@@ -22,12 +22,14 @@ public class Player : MonoBehaviour
 
     public Transform groundCheck;
 
+    private LifeCounter life;
 
     void Start()
 
     {
 
         rb2d = GetComponent<Rigidbody2D>();
+        life = FindObjectOfType<LifeCounter>();
 
     }
 
@@ -39,11 +41,22 @@ public class Player : MonoBehaviour
 
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
-    }
+        if (transform.position.y < -100)
+        {
+           
+            life.RemoveFromLives();
+
+            transform.position = new Vector3(0, 0, 0);
+        }
+
+
+        }
+
+  
 
 
 
-    void FixedUpdate()
+        void FixedUpdate()
 
     {
 
@@ -57,7 +70,7 @@ public class Player : MonoBehaviour
         if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
             rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
 
-    
+      
 
     }
 
