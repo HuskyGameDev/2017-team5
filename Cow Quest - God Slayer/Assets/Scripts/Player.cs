@@ -33,8 +33,7 @@ public class Player : MonoBehaviour
 
     void Update(){
         anim = GetComponent<Animator>();
-        Debug.Log(grounded + " " + counter++);
-        grounded = Physics2D.Linecast(transform.position, groundCheck.position, 9 << LayerMask.NameToLayer("Ground"));
+        grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
         if (transform.position.y < -100){
             life.RemoveFromLives();
             transform.position = new Vector3(0, 0, 0);
