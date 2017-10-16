@@ -24,7 +24,6 @@ public class CollisionDetection : MonoBehaviour {
         if (collision.gameObject.CompareTag("Enemy"))
         {
             enemyCollide = true;
-            //Debug.Log("The mummy hit you.");
         } else
         {
             enemyCollide = false;
@@ -32,12 +31,38 @@ public class CollisionDetection : MonoBehaviour {
         if (collision.gameObject.CompareTag("Throwables"))
         {
             throwCollide = true;
-            //Debug.Log("Throw hit you.");
         } else
         {
             throwCollide = false;
         }
-       
+        if(collision.transform.position.x < hero.transform.position.x)
+        {
+            right = true;
+        } else
+        {
+            right = false;
+        }
+        if(collision.transform.position.x > hero.transform.position.x)
+        {
+            left = true;
+        } else
+        {
+            left = false;
+        }
+        if( collision.transform.position.y < hero.transform.position.y)
+        {
+            bottom = true;
+        } else
+        {
+            bottom = false;
+        }
+        if( collision.transform.position.y > hero.transform.position.y)
+        {
+            top = true;
+        } else
+        {
+            top = false;
+        }
     }
 
     public bool cannotLeft()
