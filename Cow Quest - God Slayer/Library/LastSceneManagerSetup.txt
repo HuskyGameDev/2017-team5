@@ -3,6 +3,18 @@ sceneSetups:
 - path: Assets/Scenes/Catherine_ChooseText.unity
 =======
 - path: Assets/Scenes/Marissa.unity
->>>>>>> f3ee7d199560770168dae80df83c7cded06f7ee6
+>>>>>>> deae2bb32a02d4cf72b9da36477ed65c50c77ab8
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/Death.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Scenes/Menu.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Scenes/Settings.unity
+  isLoaded: 1
+  isActive: 0
+- path: Assets/Scenes/Credits.unity
+  isLoaded: 1
+  isActive: 0
