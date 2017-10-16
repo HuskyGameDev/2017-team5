@@ -23,9 +23,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Catherine_ChoseYes.unity
     guid: cc216094d53961048a9e10d185d6014f
-  - enabled: 1
-    path: Assets/Scenes/Marissa.unity
-    guid: e82b235cd857f2e428edb3be617ba4cc
-  - enabled: 1
-    path: Assets/Scenes/Death.unity
-    guid: e251372c4ee3d984980d15026bfcaa5b
