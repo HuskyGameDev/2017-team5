@@ -1,8 +1,8 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Catherine_ChooseText.unity
-=======
 - path: Assets/Scenes/Marissa.unity
+<<<<<<< HEAD
+>>>>>>> deae2bb32a02d4cf72b9da36477ed65c50c77ab8
+=======
 >>>>>>> deae2bb32a02d4cf72b9da36477ed65c50c77ab8
   isLoaded: 1
   isActive: 1
