@@ -33,7 +33,8 @@ public class LifeCounter : MonoBehaviour {
         if ( lives == 0 )
         {
             t.text = "Game Over";
-            UnityEditor.EditorApplication.isPlaying = false;
+			Application.LoadLevel("death");
+          //  UnityEditor.EditorApplication.isPlaying = false;
         }
 
     }
