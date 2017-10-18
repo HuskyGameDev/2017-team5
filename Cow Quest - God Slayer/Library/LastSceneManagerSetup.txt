@@ -1,16 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Marissa.unity
-  isLoaded: 1
-  isActive: 1
-- path: Assets/Scenes/Death.unity
-  isLoaded: 1
-  isActive: 0
 - path: Assets/Scenes/Menu.unity
   isLoaded: 1
-  isActive: 0
-- path: Assets/Scenes/Settings.unity
-  isLoaded: 1
-  isActive: 0
-- path: Assets/Scenes/Credits.unity
-  isLoaded: 1
-  isActive: 0
+  isActive: 1
