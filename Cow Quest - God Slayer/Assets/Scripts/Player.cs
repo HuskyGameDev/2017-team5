@@ -10,12 +10,13 @@ public class Player : MonoBehaviour
 
 
     public float maxSpeed = 5f;
-    public float moveForce = 10f;
-    public float jumpForce = 300f;
+    public float moveForce = 1000f;
+    public float jumpForce = 1000f;
     private bool grounded = false;
     private int counter = 0;
     private LifeCounter life;
     [HideInInspector] public bool jump = false;
+    [HideInInspector] public bool facingRight = true;
 
 
     private Rigidbody2D rb2d;
@@ -23,26 +24,29 @@ public class Player : MonoBehaviour
     public Transform groundCheck;
 
 
-    void Start(){
+    void Awake(){
         rb2d = GetComponent<Rigidbody2D>();
+	rb2d.freezeRotation = true;
         life = FindObjectOfType<LifeCounter>();
-
     }
 
     
 
     void Update(){
         anim = GetComponent<Animator>();
-        //Debug.Log(grounded + " " + counter++);
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, 9 << LayerMask.NameToLayer("Ground"));
-        if (transform.position.y < -100){
+        if (transform.position.y < -50){
             life.RemoveFromLives();
+	   rb2d.velocity = new Vector2(0f, 0f);
             transform.position = new Vector3(0, 0, 0);
         }
 
         if (Input.GetButtonDown("Jump") && grounded){
             jump = true;
         }
+	
+	//rb2d.velocity = rb2d.velocity*0.1f;
+
     }
 
   
@@ -51,16 +55,27 @@ public class Player : MonoBehaviour
     void FixedUpdate(){
         float h = Input.GetAxis("Horizontal");
 
-        if (h * rb2d.velocity.x < maxSpeed)
+      	if (h * rb2d.velocity.x < maxSpeed)
             rb2d.AddForce(Vector2.right * h * moveForce);
 
         if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
-            rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+            rb2d.velocity = new Vector2(Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+
+	if (h > 0 && !facingRight)
+            Flip ();
+        else if (h < 0 && facingRight)
+            Flip ();
 
         if (jump){
-            grounded = false;
             rb2d.AddForce(new Vector2(0f, jumpForce));
             jump = false;
         }
+    }
+
+  void Flip(){
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
     }
 }
