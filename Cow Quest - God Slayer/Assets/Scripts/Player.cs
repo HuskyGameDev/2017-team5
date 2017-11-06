@@ -52,11 +52,16 @@ public class Player : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
 
         if (h * rb2d.velocity.x < maxSpeed)
+        {
             rb2d.AddForce(Vector2.right * h * moveForce);
 
-        if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
-            rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+        }
 
+        if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
+        {
+            rb2d.velocity = new Vector2(Mathf.Sign(rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+        
+        }
         if (jump){
             grounded = false;
             rb2d.AddForce(new Vector2(0f, jumpForce));
