@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class AbilityUI : MonoBehaviour {
 	private string ability;
 	public Text abilText;
-	public Ability abil;
+	//public Ability abil;
 
 	void Start (){
 		abilText = GetComponent<Text>();
-		ability = abil.getAbility ();
+		//ability = abil.getAbility ();
 	}
 		
 	void Update () {
-		abilText.text = ability;
+		abilText.text = "SUPER STRIKE";
 	}
 }
