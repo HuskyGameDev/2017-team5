@@ -6,35 +6,22 @@ using UnityEngine.UI;
 public class LifeCounter : MonoBehaviour {
     private int lives;
     public int startlives;
-
-    private Text t;
-
- 
-
-    private void Start()
-    {
-         
-            t = GetComponent<Text>();
-
+    private Text lifeText;
+	//public ChangeScene SceneChanger;
+    private void Start(){
+            lifeText = GetComponent<Text>();
             lives = startlives;
-
-        
     }
 
-    private void Update()
-    {
-        t.text = "X " + lives;
+    private void Update(){
+        lifeText.text = "Lifecount: " + lives;
     }
 
-    public void RemoveFromLives()
-    {
+    public void RemoveFromLives(){
         lives--;
-
-        if ( lives == 0 )
-        {
-            t.text = "Game Over";
+		if (lives <= 0){
+            //lifeText.text = "Game Over";
 			Application.LoadLevel("death");
-          //  UnityEditor.EditorApplication.isPlaying = false;
         }
 
     }
