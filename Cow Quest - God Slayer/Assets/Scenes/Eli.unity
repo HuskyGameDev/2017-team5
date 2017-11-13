@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 25934471}
   - component: {fileID: 25934470}
   m_Layer: 5
-  m_Name: Text
+  m_Name: AbilText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,9 +158,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78cf481564871564ab60930c539643a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilText: {fileID: 0}
-  lightSide: {fileID: 0}
-  darkSide: {fileID: 0}
+  abilText: {fileID: 25934471}
+  lightSide: {fileID: 441559616}
+  darkSide: {fileID: 92639588}
+  darkish: 0
 --- !u!114 &25934471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,12 +414,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 136983081}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78cf481564871564ab60930c539643a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 5db02f67df958fd448903e8d3c28521d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  abilText: {fileID: 0}
-  lightSide: {fileID: 441559616}
-  darkSide: {fileID: 92639588}
+  startlives: 5
 --- !u!1 &280297527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1337935989
 RectTransform:
   m_ObjectHideFlags: 0

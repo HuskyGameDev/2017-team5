@@ -4,15 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class AbilityUI : MonoBehaviour {
-	private string ability;
+	//private string ability;
 	public Text abilText;
 	public Transform lightSide;
 	public Transform darkSide;
-
+	public bool darkish = true;
 	void Start (){
-		bool darkish = true;
+		
 		abilText = GetComponent<Text>();
-		if (darkish == false) {
+		abilText.text = "SUPER STRIKE";
+		if (darkish == true) {
 			darkSide.gameObject.SetActive (true);
 			lightSide.gameObject.SetActive (false);
 		} else {
@@ -20,7 +21,7 @@ public class AbilityUI : MonoBehaviour {
 			lightSide.gameObject.SetActive (true);
 		}
 			
-		abilText.text = "SUPER STRIKE";
+
 	}
 		
 	void Update () {
