@@ -34,7 +34,13 @@ public class Player : MonoBehaviour
 
     void Update(){
         anim = GetComponent<Animator>();
-        grounded = Physics2D.Linecast(transform.position, groundCheck.position, 9 << LayerMask.NameToLayer("Ground"));
+
+		Vector3 pos = new Vector3(0, -5, 0);
+
+		grounded = Physics2D.Linecast(groundCheck.position, groundCheck.position, 9 << LayerMask.NameToLayer("Ground"));
+
+		Debug.DrawLine(groundCheck.position, groundCheck.position, Color.red, 100, false);
+
         if (transform.position.y < -50){
             life.RemoveFromLives();
 	   rb2d.velocity = new Vector2(0f, 0f);
@@ -45,7 +51,7 @@ public class Player : MonoBehaviour
             jump = true;
         }
 	
-	//rb2d.velocity = rb2d.velocity*0.1f;
+	rb2d.velocity = new Vector2(Mathf.Sign (rb2d.velocity.x) * 0.1f, rb2d.velocity.y);
 
     }
 
