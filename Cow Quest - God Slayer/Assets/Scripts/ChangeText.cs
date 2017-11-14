@@ -6,13 +6,16 @@ using UnityEngine.UI;
 /* Change the text in the text box whenever the player presses a key by reading the next line 
  * from the text file */
 public class ChangeText : MonoBehaviour {
-    public Text text;
-    System.IO.StreamReader file = new System.IO.StreamReader("Assets/Text/anubis_dialogue.txt");
+    public Text text;               // The text object to be modified on screen
+    public string filename;         // Name of the file to read the text from
+    public string sceneToChangeTo;  // Scene to change to after all the text in the file has been read
+    System.IO.StreamReader file;
     string line;
 
 	// Use this for initialization
     /* Read the first line of the text file */
 	void Start () {
+        file = new System.IO.StreamReader(filename);
         text.text = file.ReadLine();
 	}
 	
