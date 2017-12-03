@@ -5,15 +5,19 @@ using UnityEngine;
 public class EMove : MonoBehaviour {
     GameObject enemy;
     GameObject[] enemiesArray;
+    Vector3 pointA;
+    Vector3 pointB;
     public GameObject hero;
    
     private float moveForce = 350f;
     private float maxSpeed = 5f;
     private bool moveRight = true;
-    private bool moveLeft = false;
+    //private bool moveLeft = false;
 	// Use this for initialization
 	void Start () {
         hero = GameObject.FindGameObjectWithTag("Player");
+        Vector3 pointA = enemy.transform.position;
+        
     }
 	
 	// Update is called once per frame
@@ -26,23 +30,32 @@ public class EMove : MonoBehaviour {
         // FindEnemies(30);
         if (gameObject.CompareTag("Cat"))
         {
+            Vector3 pointB = new Vector3(pointA.x + 5, pointA.y, pointA.z);
             enemy = GameObject.FindGameObjectWithTag("Cat");
-            Vector3 pointA = enemy.transform.position;
-            Vector3 pointB = new Vector3(transform.position.x + 5, transform.position.y, transform.position.z);
-            if (enemy.transform.position.x < pointB.x)
+            
+            if (enemy.transform.position.x > pointB.x)
+            {
+                moveRight = false;
+                
+            }
+            else if (enemy.transform.position.x < pointA.x)
+            {
+                moveRight = true;
+            }
+            if (moveRight)
             {
                 enemy.transform.Translate(new Vector3(1, 0, 0) * maxSpeed * Time.deltaTime);
-            }
-            else if (enemy.transform.position.x > pointA.x)
+            } else
             {
                 enemy.transform.Translate(new Vector3(-1, 0, 0) * maxSpeed * Time.deltaTime);
             }
 
+
         } else if (gameObject.CompareTag("Dog"))
         {
             enemy = GameObject.FindGameObjectWithTag("Dog");
-            Vector3 pointA = enemy.transform.position;
-            Vector3 pointB = new Vector3(transform.position.x + 5, transform.position.y, transform.position.z);
+            Vector3 pointB = new Vector3(pointA.x + 5, pointA.y, pointA.z);
+
 
             if (Detection())
             {
@@ -58,10 +71,20 @@ public class EMove : MonoBehaviour {
                 }
             } else
             {
-                if(enemy.transform.position.x < pointB.x)
+                if (enemy.transform.position.x > pointB.x)
+                {
+                    moveRight = false;
+
+                }
+                else if (enemy.transform.position.x < pointA.x)
+                {
+                    moveRight = true;
+                }
+                if (moveRight)
                 {
                     enemy.transform.Translate(new Vector3(1, 0, 0) * maxSpeed * Time.deltaTime);
-                } else if( enemy.transform.position.x > pointA.x)
+                }
+                else
                 {
                     enemy.transform.Translate(new Vector3(-1, 0, 0) * maxSpeed * Time.deltaTime);
                 }
@@ -69,14 +92,22 @@ public class EMove : MonoBehaviour {
         } else if (gameObject.CompareTag("Falcon"))
         {
             enemy = GameObject.FindGameObjectWithTag("Falcon");
+            Vector3 pointB = new Vector3(pointA.x, pointA.y + 10, pointA.z);
 
-            Vector3 pointA = enemy.transform.position;
-            Vector3 pointB = new Vector3(transform.position.x, transform.position.y + 2, transform.position.z);
-            if (enemy.transform.position.y < pointB.y)
+            if (enemy.transform.position.y > pointB.y)
+            {
+                moveRight = false;
+
+            }
+            else if (enemy.transform.position.y < pointA.y)
+            {
+                moveRight = true;
+            }
+            if (moveRight)
             {
                 enemy.transform.Translate(new Vector3(0, 1, 0) * maxSpeed * Time.deltaTime);
             }
-            else if (enemy.transform.position.y > pointA.y)
+            else
             {
                 enemy.transform.Translate(new Vector3(0, -1, 0) * maxSpeed * Time.deltaTime);
             }
