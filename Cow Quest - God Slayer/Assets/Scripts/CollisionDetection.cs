@@ -13,9 +13,10 @@ public class CollisionDetection : MonoBehaviour {
     bool throwCollide = false;
     GameObject hero;
     //life counter for enemy and throwable collision
-    LifeCounter lc = new LifeCounter();
+    LifeCounter lc;
     // Use this for initialization
 	void Start () {
+        lc = FindObjectOfType<LifeCounter>();
         hero = GameObject.FindGameObjectWithTag("Player");
 	}
 	
@@ -23,10 +24,12 @@ public class CollisionDetection : MonoBehaviour {
     public void OnCollisionEnter2D(Collision2D collision)
     {
         //checks to see if the player is collising with an enemey.
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Cat") || collision.gameObject.CompareTag("Dog") || collision.gameObject.CompareTag("Mummy") || collision.gameObject.CompareTag("Falcon") || collision.gameObject.CompareTag("Pharoh") || collision.gameObject.CompareTag("Plantboy"))
         {
             enemyCollide = true;
             lc.RemoveFromLives();
+            hero.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
+            hero.transform.position = new Vector3(0, 0, 0);
             //Debug.Log("The mummy hit you.");
         } else
         {
@@ -37,12 +40,23 @@ public class CollisionDetection : MonoBehaviour {
            
             throwCollide = true;
             lc.RemoveFromLives();
+            hero.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
+            hero.transform.position = new Vector3(0, 0, 0);
             //Debug.Log("Throw hit you.");
         } else
         {
             throwCollide = false;
         }
        
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("teleporter"))
+        {
+            hero.transform.position = collision.transform.GetChild(0).transform.position;
+            
+        }
     }
 
     public bool cannotLeft()

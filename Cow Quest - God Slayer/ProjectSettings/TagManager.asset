@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Weapon
+  - Cat
+  - Dog
+  - Falcon
+  - Mummy
+  - Plantboy
+  - Throwables
+  - teleporter
   layers:
   - Default
   - TransparentFX
@@ -35,7 +44,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Enemies
   - 
   m_SortingLayers:
   - name: Default

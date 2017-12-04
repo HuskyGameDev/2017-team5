@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0895a6818c867c74d804136e9d91d1c6
 timeCreated: 1510615119
+=======
+guid: 3cf02b10604f22c47aa92ec04ac29db7
+timeCreated: 1510535973
+>>>>>>> enemy-movement
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
