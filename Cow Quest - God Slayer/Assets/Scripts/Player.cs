@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 using System.Collections;
 
 
@@ -62,11 +61,7 @@ public class Player : MonoBehaviour
     void FixedUpdate(){
         float h = Input.GetAxis("Horizontal");
 	
-	if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow)){
-            anim.SetBool("walking", true);
-	}else{
-	    //anim.SetBool("walking", false); 
-	}
+	anim.speed = Mathf.Abs(h);
 	
       	if (h * rb2d.velocity.x < maxSpeed){
             rb2d.AddForce(Vector2.right * h * moveForce);
