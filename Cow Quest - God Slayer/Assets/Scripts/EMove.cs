@@ -44,10 +44,10 @@ public class EMove : MonoBehaviour {
             }
             if (moveRight)
             {
-                enemy.transform.Translate(new Vector3(1, 0, 0) * maxSpeed * Time.deltaTime);
+                enemy.transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
             } else
             {
-                enemy.transform.Translate(new Vector3(-1, 0, 0) * maxSpeed * Time.deltaTime);
+                enemy.transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
             }
 
 
@@ -62,12 +62,12 @@ public class EMove : MonoBehaviour {
                 if (Direction())
                 {
 
-                    enemy.transform.Translate(new Vector3(-1, 0, 0) * maxSpeed * Time.deltaTime);
+                    enemy.transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
 
                 }
                 else
                 {
-                    enemy.transform.Translate(new Vector3(1, 0, 0) * maxSpeed * Time.deltaTime);
+                    enemy.transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
                 }
             } else
             {
@@ -82,11 +82,11 @@ public class EMove : MonoBehaviour {
                 }
                 if (moveRight)
                 {
-                    enemy.transform.Translate(new Vector3(1, 0, 0) * maxSpeed * Time.deltaTime);
+                    enemy.transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
                 }
                 else
                 {
-                    enemy.transform.Translate(new Vector3(-1, 0, 0) * maxSpeed * Time.deltaTime);
+                    enemy.transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
                 }
             }
         } else if (gameObject.CompareTag("Falcon"))
@@ -105,11 +105,11 @@ public class EMove : MonoBehaviour {
             }
             if (moveRight)
             {
-                enemy.transform.Translate(new Vector3(0, 1, 0) * maxSpeed * Time.deltaTime);
+                enemy.transform.Translate(new Vector3(0, .5f, 0) * maxSpeed * Time.deltaTime);
             }
             else
             {
-                enemy.transform.Translate(new Vector3(0, -1, 0) * maxSpeed * Time.deltaTime);
+                enemy.transform.Translate(new Vector3(0, -.5f, 0) * maxSpeed * Time.deltaTime);
             }
 
 
@@ -121,12 +121,12 @@ public class EMove : MonoBehaviour {
                 if (Direction())
                 {
 
-                    enemy.transform.Translate( new Vector3(-1, 0, 0) * maxSpeed * Time.deltaTime);
+                    enemy.transform.Translate( new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
 
                 }
                 else
                 {
-                    enemy.transform.Translate(new Vector3(1, 0, 0) * maxSpeed * Time.deltaTime);
+                    enemy.transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
                 }
             }
         } else if (gameObject.CompareTag("Pharoh"))
@@ -137,12 +137,12 @@ public class EMove : MonoBehaviour {
                 if (Direction())
                 {
 
-                    enemy.transform.Translate(new Vector3(-1, 0, 0) * maxSpeed * Time.deltaTime);
+                    enemy.transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
 
                 }
                 else
                 {
-                    enemy.transform.Translate(new Vector3(1, 0, 0) * maxSpeed * Time.deltaTime);
+                    enemy.transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
                 }
             }
         }
@@ -169,7 +169,7 @@ public class EMove : MonoBehaviour {
 
     bool Detection()
     {
-        if (Vector3.Distance(transform.position, hero.transform.position) < 30)
+        if (Vector3.Distance(transform.position, hero.transform.position) < 5)
         {
             return true;
         }
