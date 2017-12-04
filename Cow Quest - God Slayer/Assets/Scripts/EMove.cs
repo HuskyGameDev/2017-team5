@@ -12,11 +12,13 @@ public class EMove : MonoBehaviour {
     private float moveForce = 350f;
     private float maxSpeed = 5f;
     private bool moveRight = true;
+    public float distMove;
     //private bool moveLeft = false;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         hero = GameObject.FindGameObjectWithTag("Player");
         Vector3 pointA = enemy.transform.position;
+        
         
     }
 	
@@ -30,7 +32,7 @@ public class EMove : MonoBehaviour {
         // FindEnemies(30);
         if (gameObject.CompareTag("Cat"))
         {
-            Vector3 pointB = new Vector3(pointA.x + 5, pointA.y, pointA.z);
+            Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
             enemy = GameObject.FindGameObjectWithTag("Cat");
             
             if (enemy.transform.position.x > pointB.x)
@@ -54,7 +56,7 @@ public class EMove : MonoBehaviour {
         } else if (gameObject.CompareTag("Dog"))
         {
             enemy = GameObject.FindGameObjectWithTag("Dog");
-            Vector3 pointB = new Vector3(pointA.x + 5, pointA.y, pointA.z);
+            Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
 
 
             if (Detection())
@@ -92,7 +94,7 @@ public class EMove : MonoBehaviour {
         } else if (gameObject.CompareTag("Falcon"))
         {
             enemy = GameObject.FindGameObjectWithTag("Falcon");
-            Vector3 pointB = new Vector3(pointA.x, pointA.y + 10, pointA.z);
+            Vector3 pointB = new Vector3(pointA.x, pointA.y + distMove, pointA.z);
 
             if (enemy.transform.position.y > pointB.y)
             {
