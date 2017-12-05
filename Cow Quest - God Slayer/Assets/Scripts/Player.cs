@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 using System.Collections;
 
 
@@ -28,18 +27,16 @@ public class Player : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
 	rb2d.freezeRotation = true;
         life = FindObjectOfType<LifeCounter>();
+	anim = GetComponent<Animator>();
     }
 
     
 
     void Update(){
         anim = GetComponent<Animator>();
-
-		Vector3 pos = new Vector3(0, -5, 0);
-
-		grounded = Physics2D.Linecast(groundCheck.position, groundCheck.position, 9 << LayerMask.NameToLayer("Ground"));
-
-		Debug.DrawLine(groundCheck.position, groundCheck.position, Color.red, 100, false);
+	Vector3 pos = new Vector3(0, -5, 0);
+	grounded = Physics2D.Linecast(groundCheck.position, groundCheck.position, 9 << LayerMask.NameToLayer("Ground"));
+	Debug.DrawLine(groundCheck.position, groundCheck.position, Color.red, 100, false);
 
         if (transform.position.y < -50){
             life.RemoveFromLives();
@@ -53,6 +50,9 @@ public class Player : MonoBehaviour
 	
 	rb2d.velocity = new Vector2(Mathf.Sign (rb2d.velocity.x) * 0.1f, rb2d.velocity.y);
 
+	
+
+	
     }
 
   
@@ -60,12 +60,16 @@ public class Player : MonoBehaviour
  
     void FixedUpdate(){
         float h = Input.GetAxis("Horizontal");
-
-      	if (h * rb2d.velocity.x < maxSpeed)
+	
+	anim.speed = Mathf.Abs(h);
+	
+      	if (h * rb2d.velocity.x < maxSpeed){
             rb2d.AddForce(Vector2.right * h * moveForce);
+	}
 
-        if (Mathf.Abs(rb2d.velocity.x) > maxSpeed)
+        if (Mathf.Abs(rb2d.velocity.x) > maxSpeed){
             rb2d.velocity = new Vector2(Mathf.Sign (rb2d.velocity.x) * maxSpeed, rb2d.velocity.y);
+	}
 
 	if (h > 0 && !facingRight)
             Flip ();
