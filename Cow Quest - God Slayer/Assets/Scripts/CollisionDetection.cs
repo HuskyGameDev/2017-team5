@@ -12,6 +12,7 @@ public class CollisionDetection : MonoBehaviour {
     bool enemyCollide = false;
     bool throwCollide = false;
     GameObject hero;
+    ChangeScene chgscn = new ChangeScene();
     //life counter for enemy and throwable collision
     LifeCounter lc;
     // Use this for initialization
@@ -56,6 +57,15 @@ public class CollisionDetection : MonoBehaviour {
         {
             hero.transform.position = collision.transform.GetChild(0).transform.position;
             
+        }
+
+        if (collision.gameObject.CompareTag("darkSide"))
+        {
+            chgscn.ChangeToScene("Text_Prelevel_Anubis");
+        }
+        if (collision.gameObject.CompareTag("lightSide"))
+        {
+            chgscn.ChangeToScene("Text_Prelevel_Ra");
         }
     }
 
