@@ -8,5 +8,5 @@ public class ChangeScene : MonoBehaviour {
 	public void ChangeToScene(string sceneToChangeTo) {
 		Time.timeScale = 1;
 		Application.LoadLevel(sceneToChangeTo);
-	}
+    }
 }

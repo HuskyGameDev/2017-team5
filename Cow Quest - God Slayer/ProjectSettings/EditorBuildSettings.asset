@@ -15,13 +15,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Settings.unity
     guid: f859c1f590cd96e4fb1e0394e2ccb66e
   - enabled: 1
-    path: Assets/Scenes/Catherine_ChooseText.unity
+    path: Assets/Scenes/Text_Prelevel_Anubis_orig.unity
     guid: aca4d9774e6a3a543ac90444d8de58df
   - enabled: 1
-    path: Assets/Scenes/Catherine_ChoseNo.unity
+    path: Assets/Scenes/Text_LightSide.unity
     guid: 2c6e6c1ebd635ae47b4ba2969b5daaf2
   - enabled: 1
-    path: Assets/Scenes/Catherine_ChoseYes.unity
+    path: Assets/Scenes/Text_DarkSide.unity
     guid: cc216094d53961048a9e10d185d6014f
   - enabled: 1
     path: Assets/Scenes/Marissa.unity
@@ -29,3 +29,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Death.unity
     guid: e251372c4ee3d984980d15026bfcaa5b
+  - enabled: 1
+    path: Assets/Scenes/Pre-level.unity
+    guid: 3f294cd7437de6b4591bc1b6ab9e2def
+  - enabled: 1
+    path: Assets/Scenes/Light Level 1.unity
+    guid: da43a8e7641453342b93a74bfb456e8c
+  - enabled: 1
+    path: Assets/Scenes/Text_Prelevel_Anubis.unity
+    guid: e5ebe6bbaf6994c46b7247eec58e050d
+  - enabled: 1
+    path: Assets/Scenes/Text_Intro.unity
+    guid: 05ea9689aa71a6b4e90ff125e1512ce5
