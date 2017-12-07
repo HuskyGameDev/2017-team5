@@ -13,6 +13,8 @@ TagManager:
   - Plantboy
   - Throwables
   - teleporter
+  - darkSide
+  - lightSide
   layers:
   - Default
   - TransparentFX
