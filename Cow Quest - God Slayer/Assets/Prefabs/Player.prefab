@@ -35,7 +35,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4281668805645950}
   - component: {fileID: 212337446357740278}
-  - component: {fileID: 114394384009270860}
+  - component: {fileID: 114393024179487194}
   m_Layer: 0
   m_Name: WeaponSlot
   m_TagString: Untagged
@@ -250,7 +250,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114394384009270860
+--- !u!114 &114393024179487194
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -258,9 +258,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1418367367726826}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 7177f35f1a46cff4c8e1cc73f0a881ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeweapon: {fileID: 0}
+  delay: 5
 --- !u!114 &114411639067214448
 MonoBehaviour:
   m_ObjectHideFlags: 1

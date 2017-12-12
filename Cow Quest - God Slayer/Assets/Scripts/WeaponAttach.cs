@@ -47,7 +47,7 @@ public class WeaponAttach : MonoBehaviour {
 	}
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+		if (collision.gameObject.CompareTag("Mummy")||collision.gameObject.CompareTag("Dog")||collision.gameObject.CompareTag("Cat")||collision.gameObject.CompareTag("Falcon")||collision.gameObject.CompareTag("Plantboy")||collision.gameObject.CompareTag("Pharoh"))
         {
             Destroy(collision.gameObject);
         }
