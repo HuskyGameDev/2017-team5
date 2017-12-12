@@ -1116,7 +1116,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1566766943081848, guid: b0fb56d3f13ad324d82f15c9af5248c9,
     type: 2}
   m_PrefabInternal: {fileID: 1887743169}
---- !u!114 &940362517
+--- !u!114 &940362511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1750,7 +1750,8 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.2525722
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114795118131421038, guid: b0fb56d3f13ad324d82f15c9af5248c9, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b0fb56d3f13ad324d82f15c9af5248c9, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &2031853172
