@@ -67,7 +67,10 @@ public class CollisionDetection : MonoBehaviour {
         {
             chgscn.ChangeToScene("Text_Prelevel_Ra");
         }
+	if (collision.gameObject.CompareTag("toBeContinued")){
+	    chgscn.ChangeToScene("To_Be_Continued");
     }
+}
 
     public bool cannotLeft()
     {

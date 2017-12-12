@@ -15,6 +15,7 @@ TagManager:
   - teleporter
   - darkSide
   - lightSide
+  - toBeContinued
   layers:
   - Default
   - TransparentFX
