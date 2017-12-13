@@ -32,23 +32,22 @@ public class EMove : MonoBehaviour {
 
     private void Move()
     {
-        GameObject enemy;
-
         
-        if (gameObject.CompareTag("Cat"))
+        if (this.gameObject.CompareTag("Cat"))
         {
             
            
-            enemy = GameObject.FindGameObjectWithTag("Cat");
-			if (!startset) {
-				Vector3 pointA = setStart(this.gameObject);
-				startset = true;
-			}
-				
 
-            Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
+			Vector3 pointA = setStart(this.gameObject);
+			Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
 			Debug.Log (pointA);
 			Debug.Log (pointB);
+			startset = true;
+
+				
+
+          
+
             if (transform.position.x > pointB.x)
             {
                 moveRight = false;
@@ -57,8 +56,7 @@ public class EMove : MonoBehaviour {
 			else if (transform.position.x < pointA.x)
             {
                 moveRight = true;
-				Debug.Log (pointA);
-				Debug.Log (pointB);
+
             }
             if (moveRight)
             {
@@ -69,9 +67,8 @@ public class EMove : MonoBehaviour {
             }
 
 
-        } else if (gameObject.CompareTag("Dog"))
+		} else if (this.gameObject.CompareTag("Dog"))
         {
-            enemy = GameObject.FindGameObjectWithTag("Dog");
             Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
 
 
@@ -107,9 +104,8 @@ public class EMove : MonoBehaviour {
                     transform.Translate(new Vector3(-.1f, 0, 0) * maxSpeed * Time.deltaTime);
                 }
             }
-        } else if (gameObject.CompareTag("Falcon"))
+		} else if (this.gameObject.CompareTag("Falcon"))
         {
-            enemy = GameObject.FindGameObjectWithTag("Falcon");
             Vector3 pointB = new Vector3(pointA.x, pointA.y + distMove, pointA.z);
 
             if (transform.position.y > pointB.y)
@@ -131,9 +127,8 @@ public class EMove : MonoBehaviour {
             }
 
 
-        } else if (gameObject.CompareTag("Mummy"))
+		} else if (this.gameObject.CompareTag("Mummy"))
         {
-            enemy = GameObject.FindGameObjectWithTag("Mummy");
             if (Detection())
             {
 				if (Direction(this.gameObject))
@@ -147,20 +142,19 @@ public class EMove : MonoBehaviour {
                     transform.Translate(new Vector3(.1f, 0, 0) * maxSpeed * Time.deltaTime);
                 }
             }
-        } else if (gameObject.CompareTag("Pharoh"))
+		} else if (this.gameObject.CompareTag("Pharoh"))
         {
-            enemy = GameObject.FindGameObjectWithTag("Pharoh");
             if (Detection())
             {
 				if (Direction(this.gameObject))
                 {
 
-                    enemy.transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
+                    transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
 
                 }
                 else
                 {
-                    enemy.transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
+                    transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
                 }
             }
         }
