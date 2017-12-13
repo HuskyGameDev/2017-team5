@@ -8,7 +8,7 @@ public class WeaponAttach : MonoBehaviour {
     weapon wpn;
     public GameObject activeweapon;
     public float delay = 5.0f;
-
+	bool isTriggered = false;
 
 
 	// Use this for initialization
@@ -23,7 +23,7 @@ public class WeaponAttach : MonoBehaviour {
         {
             if(wpn.projMode == weapon.Modes.melee)
             {
-                OnCollisionEnter2D(wpn.GetComponent<Collision2D>());
+               // OnCollisionEnter2D(wpn.GetComponent<Collision2D>());
             }
         }
         if(Input.GetKeyDown(KeyCode.F))
@@ -35,21 +35,24 @@ public class WeaponAttach : MonoBehaviour {
             if(wpn.projMode == weapon.Modes.Straight)
             {
                 projectile.GetComponent<Rigidbody2D>().velocity = transform.parent.localScale.x * Vector2.right * wpn.projspeed;
-                Destroy(projectile.gameObject, delay);
+				//OnTriggerEnter2D (projectile.GetComponent<Collider2D>());
+				if (isTriggered) {
+					Destroy (projectile.gameObject);
+				} else { 
+					Destroy (projectile.gameObject, delay);
+				}
             }
             else if(wpn.projMode == weapon.Modes.Throw)
             {
                 projectile.GetComponent<Rigidbody2D>().isKinematic = false;
                 projectile.GetComponent<Rigidbody2D>().velocity = new Vector2(transform.parent.localScale.x, 1) * wpn.projspeed;
-                Destroy(projectile.gameObject, delay);
+				//OnTriggerEnter2D (projectile.GetComponent<Collider2D>());
+				if (isTriggered) {
+					Destroy (projectile.gameObject);
+				} else { 
+					Destroy (projectile.gameObject, delay);
+				}
             }
         }
 	}
-    public void OnCollisionEnter2D(Collision2D collision)
-    {
-		if (collision.gameObject.CompareTag("Mummy")||collision.gameObject.CompareTag("Dog")||collision.gameObject.CompareTag("Cat")||collision.gameObject.CompareTag("Falcon")||collision.gameObject.CompareTag("Plantboy")||collision.gameObject.CompareTag("Pharoh"))
-        {
-            Destroy(collision.gameObject);
-        }
-    }
 }

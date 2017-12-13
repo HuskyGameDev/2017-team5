@@ -7,17 +7,20 @@ public class EMove : MonoBehaviour {
     
     Vector3 pointA;
     Vector3 pointB;
-    public GameObject hero;
-   
+    GameObject hero;
+
+	bool startset;
     private float moveForce = 350f;
     private float maxSpeed = 5f;
     private bool moveRight = true;
+
     public float distMove;
     //private bool moveLeft = false;
     // Use this for initialization
     void Start () {
         hero = GameObject.FindGameObjectWithTag("Player");
-        
+		startset = false;
+
         
         
     }
@@ -30,30 +33,39 @@ public class EMove : MonoBehaviour {
     private void Move()
     {
         GameObject enemy;
-        Vector3 pointA = transform.position;
+
         
         if (gameObject.CompareTag("Cat"))
         {
             
            
             enemy = GameObject.FindGameObjectWithTag("Cat");
-           
+			if (!startset) {
+				Vector3 pointA = setStart(this.gameObject);
+				startset = true;
+			}
+				
+
             Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
+			Debug.Log (pointA);
+			Debug.Log (pointB);
             if (transform.position.x > pointB.x)
             {
                 moveRight = false;
-                
+
             }
-            else if (transform.position.x < pointA.x)
+			else if (transform.position.x < pointA.x)
             {
                 moveRight = true;
+				Debug.Log (pointA);
+				Debug.Log (pointB);
             }
             if (moveRight)
             {
-                transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
+                transform.Translate(new Vector3(.1f, 0, 0) * maxSpeed * Time.deltaTime);
             } else
             {
-                transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
+                transform.Translate(new Vector3(-.1f, 0, 0) * maxSpeed * Time.deltaTime);
             }
 
 
@@ -177,4 +189,10 @@ public class EMove : MonoBehaviour {
             return false;
         }
     }
+
+	Vector3 setStart(GameObject enemy){
+		Vector3 vectorA;
+		vectorA = enemy.transform.position;
+		return vectorA;
+	}
 }
