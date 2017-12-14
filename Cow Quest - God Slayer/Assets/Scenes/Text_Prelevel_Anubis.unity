@@ -77,18 +77,15 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVRFilterTypeDirect: 0
-    m_PVRFilterTypeIndirect: 0
-    m_PVRFilterTypeAO: 0
+    m_PVRFiltering: 0
     m_PVRFilteringMode: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
     m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
-    m_PVRFilteringAtrousPositionSigmaIndirect: 2
-    m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -110,8 +107,6 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
-    debug:
-      m_Flags: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1 &63419923
 GameObject:
@@ -147,7 +142,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -5.5, y: -325.78}
-  m_SizeDelta: {x: 1406.2, y: 120.4}
+  m_SizeDelta: {x: 1370.6, y: 120.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63419925
 MonoBehaviour:
@@ -314,7 +309,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.1, y: -0.00000095367}
-  m_SizeDelta: {x: 1336.3, y: 65.6}
+  m_SizeDelta: {x: 1286.9, y: 65.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &646444391
 MonoBehaviour:
@@ -366,8 +361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c93624012fd9d4abc465192b644bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 646444391}
-  filename: Assets/Text/prelevel_anubis.txt
+  textObject: {fileID: 646444391}
+  textFile: {fileID: 4900000, guid: e667cde1d5e304847bc2a43b5cdada46, type: 3}
   sceneChangeYes: Dark_Level_1
   sceneChangeNo: Pre-level
   firstButton: {fileID: 1008018958}
@@ -618,17 +613,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1313155628}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.00000065582606}
   m_LocalScale: {x: 1.8224999, y: 0.53755325, z: 1}
   m_Children: []
   m_Father: {fileID: 574017831}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.1, y: 1.5}
-  m_SizeDelta: {x: 771, y: 1405.5}
+  m_AnchoredPosition: {x: -5.5, y: -12}
+  m_SizeDelta: {x: 402.3, y: 2550.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1313155630
 MonoBehaviour:
@@ -1133,6 +1128,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
 --- !u!4 &2116377826
 Transform:
   m_ObjectHideFlags: 0

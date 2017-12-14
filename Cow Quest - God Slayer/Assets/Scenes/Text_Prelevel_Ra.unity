@@ -142,7 +142,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.000011444, y: -325.8}
-  m_SizeDelta: {x: 1406.2, y: 120.4}
+  m_SizeDelta: {x: 1370.6, y: 120.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63419925
 MonoBehaviour:
@@ -309,7 +309,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2.8, y: -0.0000019073}
-  m_SizeDelta: {x: 1320.8, y: 69}
+  m_SizeDelta: {x: 1286.9, y: 69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &646444391
 MonoBehaviour:
@@ -361,8 +361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c93624012fd9d4abc465192b644bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 646444391}
-  filename: Assets/Text/prelevel_ra.txt
+  textObject: {fileID: 646444391}
+  textFile: {fileID: 4900000, guid: 3efa4003bc222d345b3cf1fa1ecd3f30, type: 3}
   sceneChangeYes: Light Level 1
   sceneChangeNo: Pre-level
   firstButton: {fileID: 1008018958}

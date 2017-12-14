@@ -358,8 +358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dddb30cb1c384c4e93264488aee5c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 646444391}
-  filename: Assets/Text/intro.txt
+  textObject: {fileID: 646444391}
+  textFile: {fileID: 4900000, guid: 8fc451e459efbbf46ba004cc40209bb2, type: 3}
   sceneToChangeTo: Pre-level
 --- !u!1 &1811556884
 GameObject:
