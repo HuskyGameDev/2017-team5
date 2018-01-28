@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
             transform.position = new Vector3(0, 0, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow) && grounded){
+        if ((Input.GetKeyDown(KeyCode.UpArrow)|| Input.GetKeyDown(KeyCode.W)) && grounded){
             jump = true;
         }
 	
