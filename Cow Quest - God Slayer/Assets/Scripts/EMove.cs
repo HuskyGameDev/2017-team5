@@ -8,6 +8,7 @@ public class EMove : MonoBehaviour {
     Vector3 pointA;
     Vector3 pointB;
     GameObject hero;
+    bool set = false;
 
 	bool startset;
     private float moveForce = 350f;
@@ -35,10 +36,14 @@ public class EMove : MonoBehaviour {
         
         if (this.gameObject.CompareTag("Cat"))
         {
-            
-           
 
-			Vector3 pointA = setStart(this.gameObject);
+
+
+            if (!set)
+            {
+                pointA = transform.position;
+                set = true;
+            }
 			Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
 			Debug.Log (pointA);
 			Debug.Log (pointB);
