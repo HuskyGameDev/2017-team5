@@ -67,10 +67,18 @@ public class CollisionDetection : MonoBehaviour {
         {
             chgscn.ChangeToScene("Text_Prelevel_Ra");
         }
-	if (collision.gameObject.CompareTag("toBeContinued")){
+
+	    if (collision.gameObject.CompareTag("toBeContinued")){
 	    chgscn.ChangeToScene("To_Be_Continued");
+        }
+        else if (collision.gameObject.CompareTag("TextDarkLevel1")) {
+            chgscn.ChangeToScene("Text_Dark_Level1");
+        }
+        else if (collision.gameObject.CompareTag("TextLightLevel1"))
+        {
+            chgscn.ChangeToScene("Text_Light_Level1");
+        }
     }
-}
 
     public bool cannotLeft()
     {

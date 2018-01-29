@@ -17,6 +17,8 @@ TagManager:
   - lightSide
   - toBeContinued
   - Pharoh
+  - TextLightLevel1
+  - TextDarkLevel1
   layers:
   - Default
   - TransparentFX

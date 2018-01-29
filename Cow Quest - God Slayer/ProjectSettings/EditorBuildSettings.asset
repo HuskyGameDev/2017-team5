@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Settings.unity
     guid: f859c1f590cd96e4fb1e0394e2ccb66e
   - enabled: 1
-    path: Assets/Scenes/Text_Prelevel_Anubis.unity
+    path: Assets/Scenes/Text_Dark_Level1.unity
     guid: aca4d9774e6a3a543ac90444d8de58df
   - enabled: 0
     path: Assets/Scenes/Text_LightSide.unity
@@ -47,3 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dark_Level_1.unity
     guid: b152d49c534fcd542857d49dabde69be
+  - enabled: 1
+    path: Assets/Scenes/Text_Light_Level1.unity
+    guid: d66ffc7367f3d9a418d134f2c49c95bf
+  - enabled: 1
+    path: Assets/Scenes/Text_Prelevel_Anubis.unity
+    guid: e4860a775ed4bf545a0d0f0d88f29cec

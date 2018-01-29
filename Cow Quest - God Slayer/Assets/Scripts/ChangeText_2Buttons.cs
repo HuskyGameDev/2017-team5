@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 
 /* Change the text in the text box whenever the player presses WASD, the arrow keys, the space bar, or the left mouse button
  * by reading the next line from the provided text file, and display buttons after the appropriate line has been read */
-public class ChangeText_Buttons : MonoBehaviour {
-    public Text textObject;               // The text object to be modified in the text box on screen
+public class ChangeText_2Buttons : MonoBehaviour {
+    public Text textObject;         // The text object to be modified in the text box on screen
     public TextAsset textFile;      // File to read the text from
     public string sceneChangeYes;   // Scene to change to if the player selects the "Yes" option
     public string sceneChangeNo;    // Scene to change to if the player selects the "No" option
@@ -19,10 +19,9 @@ public class ChangeText_Buttons : MonoBehaviour {
     Button firstBtn;                // Buttons must also be defined as Button types to use the onClick() function
     Button yesBtn; Button noBtn;
 
-
-    string[] fileLines; // Array to store the lines of the text file being read
-    int numOfLines;     // Total number of lines in the text file being read
-    int nextLine;       // Line number of the next line to be read
+    string[] fileLines;             // Array to store the lines of the text file being read
+    int numOfLines;                 // Total number of lines in the text file being read
+    int nextLine;                   // Line number of the next line to be read
  
     int linesUntilFirstButton;      // Number of lines of text until the first button should be displayed
     int linesUntilYesNo;            // Number of lines of text until the Yes and No buttons should be displayed
@@ -55,7 +54,6 @@ public class ChangeText_Buttons : MonoBehaviour {
         nextLine = 0;
         linesUntilFirstButton = int.Parse(fileLines[nextLine++]);
         linesUntilYesNo = int.Parse(fileLines[nextLine++]);
-        print("linesUntilFirstButton = " + linesUntilFirstButton + ", linesUntilYesNo = " + linesUntilYesNo);
 
         ///* Read the second line of the text file to get the number of lines between the "Yes" and "No" response text */
         //linesOfNoText = int.Parse(file.ReadLine());
