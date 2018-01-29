@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 107
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,13 +254,13 @@ MonoBehaviour:
     height: 781
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -331,14 +331,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ctsteige\Documents\GitHub\2017-team5\Cow Quest - God
+  m_LastProjectPath: C:\Users\mlwalthe\Documents\GitHub\2017-team5\Cow Quest - God
     Slayer
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da270000
-    m_LastClickedID: 10202
-    m_ExpandedIDs: 00000000c02600004c2700006027000000ca9a3bffffff7f
+    m_SelectedIDs: 00290000
+    m_LastClickedID: 10496
+    m_ExpandedIDs: 00000000d82700006c2800008028000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c02600004c27000060270000
+    m_ExpandedIDs: 00000000d82700006c28000080280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,9 +482,9 @@ MonoBehaviour:
     height: 760
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 28270000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 20a1feff86a4feffaca5feffe8a7feff5ea9feffd8aafeffaaacfeffd0adfeffc6affeff6eb1feffe2b2feff06b4feff2ab5feff10b7feff5abbfeffd6c0feffdac2feffa2c8feff1acafeffeecbfeff66cdfeff10d1feff38d2feff90d3feff6adafeff84dcfefffae7feff4e05ffffca06ffffee07ffff2416ffff9e32ffff823affff7e59ffff345bffff5c5cffff825dffff525fffff7860fffff261ffff8671ffff2c73ffff6a92ffffc6a3ffff70d0ffff76d2ffff48d4ffff3ad9ffff6ce1ffffe6ecffff30fbffff00000000862b00008e2b0000a22b0000ac2b0000c62b0000742c00007c2c0000902c00009a2c0000b42c00006c2d0000022e00000a2e00001e2e00007e310000863100009a310000c0350000c8350000
+    m_ExpandedIDs: 2adaffff54dfffffaafaffff000000006429000080290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,8 +502,7 @@ MonoBehaviour:
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
-  m_ExpandedScenes:
-  - _Menu
+  m_ExpandedScenes: []
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
