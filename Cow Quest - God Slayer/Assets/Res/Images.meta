@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: d4237d98d99ac1948ba2c2b69f0d32ad
 folderAsset: yes
+<<<<<<< HEAD
 timeCreated: 1517786251
+=======
+timeCreated: 1513271822
+>>>>>>> parent of 3375d0e... light level 2 with story tag fixed
 licenseType: Free
 DefaultImporter:
   userData: 

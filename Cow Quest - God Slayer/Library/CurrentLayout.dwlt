@@ -50,10 +50,14 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 111
 =======
   controlID: 104
 >>>>>>> 13605a68f0139002aaf5022c72811bb8d0e46525
+=======
+  controlID: 107
+>>>>>>> parent of 3375d0e... light level 2 with story tag fixed
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,7 +274,10 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
+<<<<<<< HEAD
 >>>>>>> 13605a68f0139002aaf5022c72811bb8d0e46525
+=======
+>>>>>>> parent of 3375d0e... light level 2 with story tag fixed
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
@@ -360,6 +367,7 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 68270000
     m_LastClickedID: 10088
     m_ExpandedIDs: 000000003e260000d2260000e626000000ca9a3bffffff7f
@@ -368,6 +376,11 @@ MonoBehaviour:
     m_LastClickedID: 11396
     m_ExpandedIDs: 00000000d42b0000282c0000382c000000ca9a3bffffff7f
 >>>>>>> 13605a68f0139002aaf5022c72811bb8d0e46525
+=======
+    m_SelectedIDs: da270000
+    m_LastClickedID: 10202
+    m_ExpandedIDs: 00000000c02600004c2700006027000000ca9a3bffffff7f
+>>>>>>> parent of 3375d0e... light level 2 with story tag fixed
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -396,10 +409,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000003e260000d2260000e6260000
 =======
     m_ExpandedIDs: 00000000d42b0000282c0000382c0000
 >>>>>>> 13605a68f0139002aaf5022c72811bb8d0e46525
+=======
+    m_ExpandedIDs: 00000000c02600004c27000060270000
+>>>>>>> parent of 3375d0e... light level 2 with story tag fixed
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,6 +541,7 @@ MonoBehaviour:
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 18270000
     m_LastClickedID: 0
     m_ExpandedIDs: 1ceaffff76edffffbaf0ffff1afcffff00000000
@@ -532,6 +550,11 @@ MonoBehaviour:
     m_LastClickedID: 0
     m_ExpandedIDs: 64e6ffff3ee8ffffcaeaffff54eeffff94f4ffff00000000
 >>>>>>> 13605a68f0139002aaf5022c72811bb8d0e46525
+=======
+    m_SelectedIDs: 28270000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 20a1feff86a4feffaca5feffe8a7feff5ea9feffd8aafeffaaacfeffd0adfeffc6affeff6eb1feffe2b2feff06b4feff2ab5feff10b7feff5abbfeffd6c0feffdac2feffa2c8feff1acafeffeecbfeff66cdfeff10d1feff38d2feff90d3feff6adafeff84dcfefffae7feff4e05ffffca06ffffee07ffff2416ffff9e32ffff823affff7e59ffff345bffff5c5cffff825dffff525fffff7860fffff261ffff8671ffff2c73ffff6a92ffffc6a3ffff70d0ffff76d2ffff48d4ffff3ad9ffff6ce1ffffe6ecffff30fbffff00000000862b00008e2b0000a22b0000ac2b0000c62b0000742c00007c2c0000902c00009a2c0000b42c00006c2d0000022e00000a2e00001e2e00007e310000863100009a310000c0350000c8350000
+>>>>>>> parent of 3375d0e... light level 2 with story tag fixed
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -550,7 +573,11 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
+<<<<<<< HEAD
   - Dark_Level_1
+=======
+  - _Menu
+>>>>>>> parent of 3375d0e... light level 2 with story tag fixed
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
