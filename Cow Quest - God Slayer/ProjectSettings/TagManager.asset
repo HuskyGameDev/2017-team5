@@ -4,11 +4,21 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - teleporter
+  - Enemy
+  - Weapon
   - Cat
-  - darkSide
+  - Dog
+  - Falcon
   - Mummy
+  - Plantboy
+  - Throwables
+  - teleporter
+  - darkSide
   - lightSide
+  - toBeContinued
+  - Pharoh
+  - TextLightLevel1
+  - TextDarkLevel1
   layers:
   - Default
   - TransparentFX
@@ -18,6 +28,7 @@ TagManager:
   - UI
   - 
   - 
+  - Ground
   - 
   - 
   - 
@@ -39,8 +50,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - Enemies
   - 
   m_SortingLayers:
   - name: Default

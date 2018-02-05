@@ -11,7 +11,6 @@ public class CollisionDetection : MonoBehaviour {
     bool bottom = false;
     bool enemyCollide = false;
     bool throwCollide = false;
-
     GameObject hero;
     ChangeScene chgscn = new ChangeScene();
     //life counter for enemy and throwable collision
@@ -37,7 +36,6 @@ public class CollisionDetection : MonoBehaviour {
         {
             enemyCollide = false;
         }
-
         if (collision.gameObject.CompareTag("Throwables"))
         {
            
@@ -50,6 +48,7 @@ public class CollisionDetection : MonoBehaviour {
         {
             throwCollide = false;
         }
+       
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
