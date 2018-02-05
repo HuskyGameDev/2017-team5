@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Sydney.unity
+=======
+- path: Assets/Scenes/Light Level 2.unity
+>>>>>>> 3375d0e54d3c5fdba91784fc69b982653cc57dbe
   isLoaded: 1
   isActive: 1
