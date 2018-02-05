@@ -1,12 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Light Level 2.unity
-=======
-<<<<<<< HEAD
 - path: Assets/Scenes/Dark_Level_1.unity
-=======
-- path: Assets/Scenes/_Menu.unity
->>>>>>> parent of 3375d0e... light level 2 with story tag fixed
->>>>>>> parent of 87fa7a0... Revert "Revert "light level 2 with story tag fixed""
   isLoaded: 1
   isActive: 1
