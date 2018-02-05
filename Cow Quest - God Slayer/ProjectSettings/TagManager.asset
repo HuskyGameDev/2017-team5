@@ -17,12 +17,7 @@ TagManager:
   - lightSide
   - toBeContinued
   - Pharoh
-<<<<<<< HEAD
   - ItemPiece
-=======
-  - TextLightLevel1
-  - TextDarkLevel1
->>>>>>> 3375d0e54d3c5fdba91784fc69b982653cc57dbe
   layers:
   - Default
   - TransparentFX

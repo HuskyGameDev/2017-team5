@@ -1424,11 +1424,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1866700783825390, guid: 719228a2973d7c64dba0fc37355ac904, type: 2}
       propertyPath: m_TagString
-      value: TextLightLevel1
+      value: toBeContinued
       objectReference: {fileID: 0}
     - target: {fileID: 1760702453806226, guid: 719228a2973d7c64dba0fc37355ac904, type: 2}
       propertyPath: m_TagString
-      value: Untagged
+      value: toBeContinued
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 719228a2973d7c64dba0fc37355ac904, type: 2}

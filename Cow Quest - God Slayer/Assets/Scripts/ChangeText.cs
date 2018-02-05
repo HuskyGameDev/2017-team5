@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 /* Change the text in the text box whenever the player presses WASD, the arrow keys, the spacebar,
  *  or the left mouse button by reading the next line from the provided text file */
-public class ChangeText_NoButtons : MonoBehaviour
+public class ChangeText : MonoBehaviour
 {
     // The text object to be modified in the text box on screen
     public Text textObject;
