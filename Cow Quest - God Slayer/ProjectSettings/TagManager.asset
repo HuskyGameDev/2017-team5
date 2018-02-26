@@ -19,6 +19,8 @@ TagManager:
   - Pharoh
   - TextLightLevel1
   - TextDarkLevel1
+  - ItemPiece
+  - bullet
   layers:
   - Default
   - TransparentFX
