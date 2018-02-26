@@ -6,21 +6,30 @@ using UnityEngine.UI;
 public class ItemCounter : MonoBehaviour {
 
     private int pieces;
+    private bool collected = false;
     private Text itemText;
+    private Text levelItem;
 
     public int collectedItems;
     public int levelPieces;
-    public Text levelItem;
 
     private void Start()
     {
-            itemText = GetComponent<Text>();
-            pieces = 0;
+        itemText = GetComponent<Text>();
+        levelItem = GameObject.Find("/LevelPack/UI/level_item").GetComponent<Text>();
+        pieces = 0;
     }
 
     private void Update()
     {
-        itemText.text = "Item Pieces Collected: " + pieces;
+        if (collected)
+        {
+            itemText.text = levelItem + " collected!";
+        }
+        else
+        {
+            itemText.text = "Item Pieces Collected: " + pieces;
+        }
     }
 
     public void addPiece()
@@ -30,6 +39,7 @@ public class ItemCounter : MonoBehaviour {
         if (pieces == levelPieces)
         {
             //addItem(levelItem);
+            collected = true;
         }
     }
 

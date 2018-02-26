@@ -17,10 +17,10 @@ public class ItemCollision : MonoBehaviour {
 	{
 		if (collision.gameObject.CompareTag("Player"))
         {
-            //ic.addPiece();
+            ic.addPiece();
             Debug.Log("You collected an item piece!");
-            //Debug.Log("Pieces Collected: " + ic.getPieces());
-            Destroy(this.gameObject);
+            Debug.Log("Pieces Collected: " + ic.getPieces());
+            this.gameObject.SetActive(false);
         }
 	}
 }
