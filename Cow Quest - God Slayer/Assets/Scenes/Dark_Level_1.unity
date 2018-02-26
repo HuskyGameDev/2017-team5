@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 3332966}
   - component: {fileID: 3332969}
   - component: {fileID: 3332970}
+  - component: {fileID: 3332971}
   m_Layer: 30
   m_Name: concept_mummy (3)
   m_TagString: Mummy
@@ -239,6 +240,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3332971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3332965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &184374752
 Prefab:
   m_ObjectHideFlags: 0
@@ -301,6 +314,7 @@ GameObject:
   - component: {fileID: 253487601}
   - component: {fileID: 253487604}
   - component: {fileID: 253487605}
+  - component: {fileID: 253487606}
   m_Layer: 30
   m_Name: concept_mummy (4)
   m_TagString: Mummy
@@ -420,6 +434,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &253487606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 253487600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1 &274864324
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +458,7 @@ GameObject:
   - component: {fileID: 274864325}
   - component: {fileID: 274864328}
   - component: {fileID: 274864329}
+  - component: {fileID: 274864330}
   m_Layer: 30
   m_Name: concept_mummy (5)
   m_TagString: Mummy
@@ -551,6 +578,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &274864330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 274864324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &370249261
 Prefab:
   m_ObjectHideFlags: 0
@@ -791,6 +830,7 @@ GameObject:
   - component: {fileID: 472405208}
   - component: {fileID: 472405207}
   - component: {fileID: 472405206}
+  - component: {fileID: 472405211}
   m_Layer: 30
   m_Name: concept_mummy (8)
   m_TagString: Mummy
@@ -910,6 +950,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &472405211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 472405205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!4 &497713494 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4245054453655186, guid: 485ea3ee4aade0b4c9c6305ffef599dc,
@@ -1156,6 +1208,7 @@ GameObject:
   - component: {fileID: 1195974132}
   - component: {fileID: 1195974135}
   - component: {fileID: 1195974136}
+  - component: {fileID: 1195974137}
   m_Layer: 30
   m_Name: concept_mummy (7)
   m_TagString: Mummy
@@ -1275,6 +1328,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1195974137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195974131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &1252395083
 Prefab:
   m_ObjectHideFlags: 0
@@ -1570,7 +1635,7 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!1 &1600827485 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 1162646514077312, guid: 72fb40752d0aad248974f632c0f80dbc,
+  m_PrefabParentObject: {fileID: 1938035781484286, guid: dd4b198dbe788d54d8b75242f7f44e62,
     type: 2}
   m_PrefabInternal: {fileID: 2144936253}
 --- !u!1 &1619078339
@@ -1585,6 +1650,7 @@ GameObject:
   - component: {fileID: 1619078340}
   - component: {fileID: 1619078343}
   - component: {fileID: 1619078344}
+  - component: {fileID: 1619078345}
   m_Layer: 30
   m_Name: concept_mummy (6)
   m_TagString: Mummy
@@ -1704,6 +1770,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1619078345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1619078339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1 &1652579476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,6 +1939,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1749310444 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1471106988731010, guid: bd9334841eefc3044a644bc30a20b9b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1749310443}
+--- !u!114 &1749310445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1749310444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1 &1763219807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,6 +1968,7 @@ GameObject:
   - component: {fileID: 1763219808}
   - component: {fileID: 1763219811}
   - component: {fileID: 1763219812}
+  - component: {fileID: 1763219813}
   m_Layer: 30
   m_Name: concept_mummy (1)
   m_TagString: Mummy
@@ -1992,6 +2088,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1763219813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763219807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1 &1773930644
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,6 +2112,7 @@ GameObject:
   - component: {fileID: 1773930645}
   - component: {fileID: 1773930648}
   - component: {fileID: 1773930649}
+  - component: {fileID: 1773930650}
   m_Layer: 30
   m_Name: concept_mummy (2)
   m_TagString: Mummy
@@ -2123,6 +2232,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1773930650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1773930644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &1774199114
 Prefab:
   m_ObjectHideFlags: 0
@@ -2317,94 +2438,42 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4291706496158406, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    - target: {fileID: 4023843721069884, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
       propertyPath: m_LocalPosition.x
       value: -18.21
       objectReference: {fileID: 0}
-    - target: {fileID: 4291706496158406, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    - target: {fileID: 4023843721069884, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
       propertyPath: m_LocalPosition.y
       value: 1.2107
       objectReference: {fileID: 0}
-    - target: {fileID: 4291706496158406, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    - target: {fileID: 4023843721069884, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4291706496158406, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    - target: {fileID: 4023843721069884, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4291706496158406, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    - target: {fileID: 4023843721069884, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4291706496158406, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    - target: {fileID: 4023843721069884, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4291706496158406, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    - target: {fileID: 4023843721069884, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4291706496158406, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    - target: {fileID: 4023843721069884, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
       propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 61764834511267980, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 50920243174727278, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 50920243174727278, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: m_GravityScale
-      value: 0
+    - target: {fileID: 1938035781484286, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
+      propertyPath: m_Name
+      value: SpecialFireAttack
       objectReference: {fileID: 0}
-    - target: {fileID: 114043459437523262, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114043459437523262, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: cd
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61764834511267980, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61764834511267980, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61764834511267980, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: 0.20577092
-      objectReference: {fileID: 0}
-    - target: {fileID: 61764834511267980, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114417338623908214, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: projspeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 114417338623908214, guid: 72fb40752d0aad248974f632c0f80dbc,
-        type: 2}
-      propertyPath: sprite
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 50920243174727278, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: 72fb40752d0aad248974f632c0f80dbc, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: dd4b198dbe788d54d8b75242f7f44e62, type: 2}
   m_IsPrefabParent: 0
