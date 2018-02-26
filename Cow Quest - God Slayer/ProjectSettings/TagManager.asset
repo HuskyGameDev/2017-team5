@@ -21,6 +21,7 @@ TagManager:
   - TextDarkLevel1
   - ItemPiece
   - bullet
+  - Inivisible
   layers:
   - Default
   - TransparentFX
