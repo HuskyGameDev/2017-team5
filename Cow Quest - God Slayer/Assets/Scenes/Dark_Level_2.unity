@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 3332966}
   - component: {fileID: 3332969}
   - component: {fileID: 3332970}
+  - component: {fileID: 3332971}
   m_Layer: 30
   m_Name: concept_mummy (3)
   m_TagString: Mummy
@@ -239,6 +240,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3332971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3332965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &19848030
 Prefab:
   m_ObjectHideFlags: 0
@@ -439,6 +452,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &233117443 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1471106988731010, guid: bd9334841eefc3044a644bc30a20b9b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 233117442}
+--- !u!114 &233117444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 233117443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1 &253487600
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +481,7 @@ GameObject:
   - component: {fileID: 253487601}
   - component: {fileID: 253487604}
   - component: {fileID: 253487605}
+  - component: {fileID: 253487606}
   m_Layer: 30
   m_Name: concept_mummy (4)
   m_TagString: Mummy
@@ -570,6 +601,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &253487606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 253487600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1 &274864324
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +625,7 @@ GameObject:
   - component: {fileID: 274864325}
   - component: {fileID: 274864328}
   - component: {fileID: 274864329}
+  - component: {fileID: 274864330}
   m_Layer: 30
   m_Name: concept_mummy (5)
   m_TagString: Mummy
@@ -701,6 +745,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &274864330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 274864324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &324082667
 Prefab:
   m_ObjectHideFlags: 0
@@ -747,6 +803,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &324082668 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1471106988731010, guid: bd9334841eefc3044a644bc30a20b9b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 324082667}
+--- !u!114 &324082669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 324082668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &370249261
 Prefab:
   m_ObjectHideFlags: 0
@@ -1037,6 +1110,7 @@ GameObject:
   - component: {fileID: 472405208}
   - component: {fileID: 472405207}
   - component: {fileID: 472405206}
+  - component: {fileID: 472405211}
   m_Layer: 30
   m_Name: concept_mummy (8)
   m_TagString: Mummy
@@ -1156,6 +1230,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &472405211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 472405205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &486634215
 Prefab:
   m_ObjectHideFlags: 0
@@ -1202,6 +1288,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &486634216 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1116903401630448, guid: a66f3170970f4d94ca339e321e746d4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 486634215}
+--- !u!114 &486634217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 486634216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!4 &497713494 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4245054453655186, guid: 485ea3ee4aade0b4c9c6305ffef599dc,
@@ -1315,6 +1418,7 @@ GameObject:
   - component: {fileID: 638332243}
   - component: {fileID: 638332246}
   - component: {fileID: 638332247}
+  - component: {fileID: 638332248}
   m_Layer: 30
   m_Name: concept_mummy
   m_TagString: Mummy
@@ -1434,6 +1538,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &638332248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 638332242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &707915468
 Prefab:
   m_ObjectHideFlags: 0
@@ -1805,6 +1921,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &908674860 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1471106988731010, guid: bd9334841eefc3044a644bc30a20b9b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 908674859}
+--- !u!114 &908674861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 908674860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &1056426285
 Prefab:
   m_ObjectHideFlags: 0
@@ -1967,6 +2100,7 @@ GameObject:
   - component: {fileID: 1195974132}
   - component: {fileID: 1195974135}
   - component: {fileID: 1195974136}
+  - component: {fileID: 1195974137}
   m_Layer: 30
   m_Name: concept_mummy (7)
   m_TagString: Mummy
@@ -2086,6 +2220,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1195974137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195974131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &1252395083
 Prefab:
   m_ObjectHideFlags: 0
@@ -2256,6 +2402,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1270459843 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1116903401630448, guid: a66f3170970f4d94ca339e321e746d4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1270459842}
+--- !u!114 &1270459844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1270459843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!1001 &1341551360
 Prefab:
   m_ObjectHideFlags: 0
@@ -2618,6 +2781,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1606578849 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1471106988731010, guid: bd9334841eefc3044a644bc30a20b9b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1606578848}
+--- !u!114 &1606578850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1606578849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &1607089235
 Prefab:
   m_ObjectHideFlags: 0
@@ -2664,6 +2844,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1607089236 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1116903401630448, guid: a66f3170970f4d94ca339e321e746d4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1607089235}
+--- !u!114 &1607089237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1607089236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!1 &1619078339
 GameObject:
   m_ObjectHideFlags: 0
@@ -2676,6 +2873,7 @@ GameObject:
   - component: {fileID: 1619078340}
   - component: {fileID: 1619078343}
   - component: {fileID: 1619078344}
+  - component: {fileID: 1619078345}
   m_Layer: 30
   m_Name: concept_mummy (6)
   m_TagString: Mummy
@@ -2795,6 +2993,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1619078345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1619078339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &1621475181
 Prefab:
   m_ObjectHideFlags: 0
@@ -2841,6 +3051,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1621475182 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1116903401630448, guid: a66f3170970f4d94ca339e321e746d4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1621475181}
+--- !u!114 &1621475183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1621475182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!1 &1652579476
 GameObject:
   m_ObjectHideFlags: 0
@@ -2996,6 +3223,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1676568659 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1116903401630448, guid: a66f3170970f4d94ca339e321e746d4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1676568658}
+--- !u!114 &1676568660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1676568659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!114 &1676758579 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114593974302588950, guid: 485ea3ee4aade0b4c9c6305ffef599dc,
@@ -3110,6 +3354,7 @@ GameObject:
   - component: {fileID: 1763219808}
   - component: {fileID: 1763219811}
   - component: {fileID: 1763219812}
+  - component: {fileID: 1763219813}
   m_Layer: 30
   m_Name: concept_mummy (1)
   m_TagString: Mummy
@@ -3229,6 +3474,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1763219813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763219807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1 &1773930644
 GameObject:
   m_ObjectHideFlags: 0
@@ -3241,6 +3498,7 @@ GameObject:
   - component: {fileID: 1773930645}
   - component: {fileID: 1773930648}
   - component: {fileID: 1773930649}
+  - component: {fileID: 1773930650}
   m_Layer: 30
   m_Name: concept_mummy (2)
   m_TagString: Mummy
@@ -3360,6 +3618,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1773930650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1773930644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
 --- !u!1001 &1774199114
 Prefab:
   m_ObjectHideFlags: 0
@@ -3693,6 +3963,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1995884990 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1116903401630448, guid: a66f3170970f4d94ca339e321e746d4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1995884989}
+--- !u!114 &1995884991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1995884990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!1001 &1996849936
 Prefab:
   m_ObjectHideFlags: 0
@@ -3781,6 +4068,11 @@ Prefab:
     - target: {fileID: 1116903401630448, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
       propertyPath: m_Name
       value: Cat (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114134623052602314, guid: a66f3170970f4d94ca339e321e746d4b,
+        type: 2}
+      propertyPath: distMove
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
@@ -3881,6 +4173,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2082062361 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1116903401630448, guid: a66f3170970f4d94ca339e321e746d4b,
+    type: 2}
+  m_PrefabInternal: {fileID: 2082062360}
+--- !u!114 &2082062362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2082062361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e23bba340bfc1748bab0dc0613d7ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!1001 &2089373911
 Prefab:
   m_ObjectHideFlags: 0
