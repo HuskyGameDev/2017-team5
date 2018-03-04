@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Brady.unity
-=======
-- path: Assets/Scenes/Text_Light_Level2.unity
->>>>>>> 5b43a06a14b8808b0f7a93913c56406f6726c95b
   isLoaded: 1
   isActive: 1
