@@ -8,15 +8,14 @@ public class ItemCounter : MonoBehaviour {
     private int pieces;
     private bool collected = false;
     private Text itemText;
-    private Text levelItem;
 
+    public Text levelItem;
     public int collectedItems;
     public int levelPieces;
 
     private void Start()
     {
         itemText = GetComponent<Text>();
-        levelItem = GameObject.Find("/LevelPack/UI/level_item").GetComponent<Text>();
         pieces = 0;
     }
 
@@ -24,11 +23,11 @@ public class ItemCounter : MonoBehaviour {
     {
         if (collected)
         {
-            itemText.text = levelItem + " collected!";
+            itemText.text = levelItem.text + " collected!";
         }
         else
         {
-            itemText.text = "Item Pieces Collected: " + pieces;
+            itemText.text = "Pieces: " + pieces;
         }
     }
 

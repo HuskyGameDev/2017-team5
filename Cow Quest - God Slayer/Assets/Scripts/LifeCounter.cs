@@ -14,7 +14,7 @@ public class LifeCounter : MonoBehaviour {
     }
 
     private void Update(){
-        lifeText.text = "Lifecount: " + lives;
+        lifeText.text = "Lives: " + lives;
     }
 
     public void RemoveFromLives(){
