@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Menu.unity
-=======
-- path: Assets/Scenes/Light Level 2.unity
->>>>>>> 94bffd305298c7adcf4191379d2f2d83b6cdf7e3
   isLoaded: 1
   isActive: 1
