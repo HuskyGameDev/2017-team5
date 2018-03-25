@@ -30,7 +30,7 @@ public class bossAttack : MonoBehaviour
         {
             if (cd == 0)
             {
-                cd = 90;
+                cd = 60;
                 //Vector3 rotation = transform.parent.localScale.x==1 ? Vector3.zero : Vector3.forward*180;
                 GameObject projectile = (GameObject)Instantiate(boss.projectile, transform.position + bossweapon.transform.GetChild(0).localPosition * transform.parent.localScale.x, Quaternion.identity);
                 //projectile.tag = "Clone";
