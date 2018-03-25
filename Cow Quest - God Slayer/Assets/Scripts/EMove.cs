@@ -34,7 +34,7 @@ public class EMove : MonoBehaviour {
     private void Move()
     {
         
-        if (this.gameObject.CompareTag("Cat"))
+        if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy") || this.gameObject.CompareTag("EndDude"))
         {
 
 
@@ -45,8 +45,7 @@ public class EMove : MonoBehaviour {
                 set = true;
             }
 			Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
-			Debug.Log (pointA);
-			Debug.Log (pointB);
+
 			startset = true;
 
 				
@@ -74,7 +73,14 @@ public class EMove : MonoBehaviour {
 
 		} else if (this.gameObject.CompareTag("Dog"))
         {
+            if (!set)
+            {
+                pointA = transform.position;
+                set = true;
+            }
             Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
+
+            startset = true;
 
 
             if (Detection())
@@ -111,7 +117,13 @@ public class EMove : MonoBehaviour {
             }
 		} else if (this.gameObject.CompareTag("Falcon"))
         {
+            if (!set)
+            {
+                pointA = transform.position;
+                set = true;
+            }
             Vector3 pointB = new Vector3(pointA.x, pointA.y + distMove, pointA.z);
+            startset = true;
 
             if (transform.position.y > pointB.y)
             {
