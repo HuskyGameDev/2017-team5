@@ -36,18 +36,7 @@ public class CollisionDetection : MonoBehaviour {
         {
             enemyCollide = false;
         }
-        if (collision.gameObject.CompareTag("Throwables"))
-        {
-           
-            throwCollide = true;
-            lc.RemoveFromLives();
-            hero.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
-            hero.transform.position = new Vector3(0, 0, 0);
-            //Debug.Log("Throw hit you.");
-        } else
-        {
-            throwCollide = false;
-        }
+        
        
     }
 
@@ -77,6 +66,15 @@ public class CollisionDetection : MonoBehaviour {
         else if (collision.gameObject.CompareTag("TextLightLevel1"))
         {
             chgscn.ChangeToScene("Text_Light_Level1");
+        }
+        if (collision.gameObject.CompareTag("bossprojectile"))
+        {
+
+            throwCollide = true;
+            lc.RemoveFromLives();
+            hero.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
+            hero.transform.position = new Vector3(0, 0, 0);
+            //Debug.Log("Throw hit you.");
         }
     }
 
