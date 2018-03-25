@@ -36,7 +36,7 @@ public class CollisionDetection : MonoBehaviour {
         {
             enemyCollide = false;
         }
-        if (collision.gameObject.CompareTag("Throwables"))
+        if (collision.gameObject.CompareTag("bossprojectile"))
         {
            
             throwCollide = true;
