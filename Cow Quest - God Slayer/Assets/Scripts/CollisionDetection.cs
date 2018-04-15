@@ -11,6 +11,7 @@ public class CollisionDetection : MonoBehaviour {
     bool bottom = false;
     bool enemyCollide = false;
     bool throwCollide = false;
+    bool inBossRoom = false;
     GameObject hero;
     ChangeScene chgscn = new ChangeScene();
     //life counter for enemy and throwable collision
@@ -35,6 +36,10 @@ public class CollisionDetection : MonoBehaviour {
         } else
         {
             enemyCollide = false;
+        }
+        if (collision.gameObject.CompareTag("bossFloor"))
+        {
+            inBossRoom = true;
         }
         
        
@@ -77,7 +82,10 @@ public class CollisionDetection : MonoBehaviour {
             //Debug.Log("Throw hit you.");
         }
     }
-
+    public bool getInBossRoom()
+    {
+        return inBossRoom;
+    }
     public bool cannotLeft()
     {
         return right;
