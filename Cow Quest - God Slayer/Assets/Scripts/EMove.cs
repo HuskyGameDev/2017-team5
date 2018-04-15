@@ -36,11 +36,15 @@ public class EMove : MonoBehaviour {
 <<<<<<< HEAD
         keepUpright(this.gameObject);
 
+<<<<<<< HEAD
         if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy"))
 =======
         
         if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy") || this.gameObject.CompareTag("EndDude"))
 >>>>>>> parent of 3845df7... enemies remain upright
+=======
+        if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy") || this.gameObject.CompareTag("EndDude"))
+>>>>>>> parent of 9d7ee56... made some boss changes
         {
 
 
@@ -167,7 +171,7 @@ public class EMove : MonoBehaviour {
             }
 		} else if (this.gameObject.CompareTag("Pharoh"))
         {
-            if (bossDetection())
+            if (Detection())
             {
 				if (Direction(this.gameObject))
                 {
@@ -181,73 +185,11 @@ public class EMove : MonoBehaviour {
                 }
             }
         }
-        else if (this.gameObject.CompareTag("EndDude"))
-        {
-            if (bossDetection())
-            {
-                if (Direction(this.gameObject))
-                {
-
-                    transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
-
-                }
-                else
-                {
-                    transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
-                }
-            } else
-            {
-                if (!set)
-                {
-                    pointA = transform.position;
-                    set = true;
-                }
-                Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
-
-                startset = true;
-
-
-
-
-
-                if (transform.position.x > pointB.x)
-                {
-                    moveRight = false;
-
-                }
-                else if (transform.position.x < pointA.x)
-                {
-                    moveRight = true;
-
-                }
-                if (moveRight)
-                {
-                    transform.Translate(new Vector3(.1f, 0, 0) * maxSpeed * Time.deltaTime);
-                }
-                else
-                {
-                    transform.Translate(new Vector3(-.1f, 0, 0) * maxSpeed * Time.deltaTime);
-                }
-
-            }
-        }
     }
-    
+
     bool Detection()
     {
         if (Vector3.Distance(transform.position, hero.transform.position) < 2)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-
-    bool bossDetection()
-    {
-        if (Vector3.Distance(transform.position, hero.transform.position) < 20)
         {
             return true;
         }
