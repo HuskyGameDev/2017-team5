@@ -156,7 +156,56 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!1001 &126930445
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 21.640001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -11.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471106988731010, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_Name
+      value: concept_mummy (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &199074364
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -202,6 +251,63 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
+=======
+--- !u!1001 &211472827
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -12.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385290834409636, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_Name
+      value: Platform_1 (Start) (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.42164165
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.023418525
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+  m_IsPrefabParent: 0
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
 --- !u!1001 &224069925
 Prefab:
   m_ObjectHideFlags: 0
@@ -1511,9 +1617,56 @@ Prefab:
       propertyPath: m_Pivot.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 224106599963845734, guid: 78591608351e26344b8cc323afa49676,
         type: 2}
       propertyPath: m_Pivot.y
+=======
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4540791963370584, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471106988731010, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+      propertyPath: m_Name
+      value: concept_mummy (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bd9334841eefc3044a644bc30a20b9b9, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1214410396
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -13.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371305379774870, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
+      propertyPath: m_LocalRotation.z
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1301874206120718, guid: 78591608351e26344b8cc323afa49676, type: 2}
@@ -1740,6 +1893,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
 --- !u!1001 &881096270
 Prefab:
   m_ObjectHideFlags: 0
@@ -1795,6 +1949,9 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &900945653
+=======
+--- !u!1001 &1324929097
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -3081,6 +3238,9 @@ Prefab:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 20163697407683428, guid: b0fb56d3f13ad324d82f15c9af5248c9,
@@ -3210,6 +3370,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 15
 =======
       value: 16
@@ -3217,6 +3378,9 @@ Prefab:
 =======
       value: 18
 >>>>>>> parent of b34e3ad... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
+=======
+      value: 15
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
       objectReference: {fileID: 0}
     - target: {fileID: 1385290834409636, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
       propertyPath: m_Name
@@ -3243,6 +3407,9 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
 --- !u!1 &1652579476
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,6 +3520,7 @@ Transform:
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1662214531
+<<<<<<< HEAD
 =======
 --- !u!1001 &885008715
 Prefab:
@@ -3428,6 +3596,8 @@ Prefab:
 =======
 --- !u!1001 &881096270
 >>>>>>> parent of 22b3365... Dark level 3 has been fixed
+=======
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -3624,6 +3794,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 23
 =======
       value: 12
@@ -3634,6 +3805,9 @@ Prefab:
 =======
       value: 14
 >>>>>>> parent of 22b3365... Dark level 3 has been fixed
+=======
+      value: 23
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
       objectReference: {fileID: 0}
     - target: {fileID: 1385290834409636, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
       propertyPath: m_Name
@@ -3650,6 +3824,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3862,6 +4037,9 @@ Transform:
 >>>>>>> 3011d07683379ee14646931cb136acd58896cdeb
 =======
 >>>>>>> parent of 22b3365... Dark level 3 has been fixed
+=======
+--- !u!1001 &2077336615
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -3978,6 +4156,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 32
 =======
       value: 13
@@ -3988,6 +4167,9 @@ Prefab:
 =======
       value: 15
 >>>>>>> parent of 22b3365... Dark level 3 has been fixed
+=======
+      value: 32
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
       objectReference: {fileID: 0}
     - target: {fileID: 1385290834409636, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
       propertyPath: m_Name
@@ -4096,6 +4278,9 @@ AudioSource:
       value: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
       objectReference: {fileID: 0}
     - target: {fileID: 4905346917053974, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
       propertyPath: m_RootOrder
@@ -4109,6 +4294,7 @@ AudioSource:
   m_ParentPrefab: {fileID: 100100000, guid: a66f3170970f4d94ca339e321e746d4b, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &2120671569
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 22b3365... Dark level 3 has been fixed
@@ -4136,6 +4322,8 @@ Transform:
 >>>>>>> 3011d07683379ee14646931cb136acd58896cdeb
 =======
 >>>>>>> parent of 22b3365... Dark level 3 has been fixed
+=======
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -4175,6 +4363,7 @@ Prefab:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 35
 =======
       value: 15
@@ -4185,6 +4374,9 @@ Prefab:
 =======
       value: 17
 >>>>>>> parent of 22b3365... Dark level 3 has been fixed
+=======
+      value: 35
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
       objectReference: {fileID: 0}
     - target: {fileID: 1385290834409636, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
       propertyPath: m_Name
@@ -4201,6 +4393,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4222,6 +4415,9 @@ MonoBehaviour:
 =======
 --- !u!1001 &2082062360
 >>>>>>> parent of 22b3365... Dark level 3 has been fixed
+=======
+--- !u!1001 &2126361928
+>>>>>>> parent of 3bf04cd... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
