@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class ItemCounter : MonoBehaviour {
 
     private int pieces;
+    private int collectedItems;
     private bool collected = false;
     private Text itemText;
 
     public Text levelItem;
-    public int collectedItems;
     public int levelPieces;
 
     private void Start()
@@ -35,11 +35,20 @@ public class ItemCounter : MonoBehaviour {
     {
         pieces++;
 
-        if (pieces == levelPieces)
+        if (pieces == 3)
         {
             //addItem(levelItem);
             collected = true;
+            GameObject.Find("LifeCounter").GetComponent<LifeCounter>().AddLife();
+            StartCoroutine(wait());
         }
+    }
+
+    private IEnumerator wait()
+    {
+        yield return new WaitForSeconds(1);
+        pieces = 0;
+        collected = false;
     }
 
     public int getPieces()

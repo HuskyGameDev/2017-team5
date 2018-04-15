@@ -33,8 +33,9 @@ public class EMove : MonoBehaviour {
 
     private void Move()
     {
-        
-        if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy") || this.gameObject.CompareTag("EndDude"))
+        keepUpright(this.gameObject);
+
+        if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy"))
         {
 
 
@@ -161,7 +162,7 @@ public class EMove : MonoBehaviour {
             }
 		} else if (this.gameObject.CompareTag("Pharoh"))
         {
-            if (Detection())
+            if (bossDetection())
             {
 				if (Direction(this.gameObject))
                 {
@@ -175,11 +176,73 @@ public class EMove : MonoBehaviour {
                 }
             }
         }
-    }
+        else if (this.gameObject.CompareTag("EndDude"))
+        {
+            if (bossDetection())
+            {
+                if (Direction(this.gameObject))
+                {
 
+                    transform.Translate(new Vector3(-.5f, 0, 0) * maxSpeed * Time.deltaTime);
+
+                }
+                else
+                {
+                    transform.Translate(new Vector3(.5f, 0, 0) * maxSpeed * Time.deltaTime);
+                }
+            } else
+            {
+                if (!set)
+                {
+                    pointA = transform.position;
+                    set = true;
+                }
+                Vector3 pointB = new Vector3(pointA.x + distMove, pointA.y, pointA.z);
+
+                startset = true;
+
+
+
+
+
+                if (transform.position.x > pointB.x)
+                {
+                    moveRight = false;
+
+                }
+                else if (transform.position.x < pointA.x)
+                {
+                    moveRight = true;
+
+                }
+                if (moveRight)
+                {
+                    transform.Translate(new Vector3(.1f, 0, 0) * maxSpeed * Time.deltaTime);
+                }
+                else
+                {
+                    transform.Translate(new Vector3(-.1f, 0, 0) * maxSpeed * Time.deltaTime);
+                }
+
+            }
+        }
+    }
+    
     bool Detection()
     {
         if (Vector3.Distance(transform.position, hero.transform.position) < 2)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    bool bossDetection()
+    {
+        if (Vector3.Distance(transform.position, hero.transform.position) < 20)
         {
             return true;
         }
@@ -206,4 +269,12 @@ public class EMove : MonoBehaviour {
 		vectorA = enemy.transform.position;
 		return vectorA;
 	}
+
+    void keepUpright(GameObject enemy)
+    {
+        Rigidbody2D rb2d;
+        rb2d = enemy.GetComponent<Rigidbody2D>();
+        rb2d.freezeRotation = true;
+        
+    }
 }
