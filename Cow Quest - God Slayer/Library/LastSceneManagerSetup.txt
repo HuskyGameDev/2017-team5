@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Brady.unity
+=======
+- path: Assets/Scenes/Light Level 3.unity
+>>>>>>> parent of b34e3ad... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
   isLoaded: 1
   isActive: 1

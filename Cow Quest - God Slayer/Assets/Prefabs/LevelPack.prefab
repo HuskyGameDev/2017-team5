@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4266763628590372}
   m_Layer: 0
-  m_Name: XX-LevelPack
+  m_Name: LevelPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 114578442837360826}
   - component: {fileID: 114370132499739668}
   m_Layer: 5
-  m_Name: HUD
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -697,6 +697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelItem: {fileID: 0}
+  collectedItems: 0
   levelPieces: 6
 --- !u!114 &114034561943926052
 MonoBehaviour:
@@ -1063,7 +1064,7 @@ MonoBehaviour:
   PauseMenu: {fileID: 224759294606208808}
   HelpMenu: {fileID: 224715947641948004}
   QuitMenu: {fileID: 224766767171436946}
-  HUD: {fileID: 0}
+  UI: {fileID: 224768251306210000}
   PauseResumeButton: {fileID: 114157713344306366}
   HelpButton: {fileID: 114967659171503912}
   QuitButton: {fileID: 114360907189559490}
