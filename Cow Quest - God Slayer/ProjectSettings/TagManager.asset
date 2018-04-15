@@ -22,6 +22,10 @@ TagManager:
   - ItemPiece
   - bullet
   - Inivisible
+  - LevelItem
+  - BigBoy
+  - EndDude
+  - bossprojectile
   layers:
   - Default
   - TransparentFX
@@ -58,4 +62,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: lighting
+    uniqueID: 227509287
     locked: 0

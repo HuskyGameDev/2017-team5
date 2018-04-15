@@ -6,17 +6,16 @@ using UnityEngine.UI;
 public class ItemCounter : MonoBehaviour {
 
     private int pieces;
+    private int collectedItems;
     private bool collected = false;
     private Text itemText;
-    private Text levelItem;
 
-    public int collectedItems;
+    public Text levelItem;
     public int levelPieces;
 
     private void Start()
     {
         itemText = GetComponent<Text>();
-        levelItem = GameObject.Find("/LevelPack/UI/level_item").GetComponent<Text>();
         pieces = 0;
     }
 
@@ -24,11 +23,11 @@ public class ItemCounter : MonoBehaviour {
     {
         if (collected)
         {
-            itemText.text = levelItem + " collected!";
+            itemText.text = levelItem.text + " collected!";
         }
         else
         {
-            itemText.text = "Item Pieces Collected: " + pieces;
+            itemText.text = "Pieces: " + pieces;
         }
     }
 
@@ -36,11 +35,20 @@ public class ItemCounter : MonoBehaviour {
     {
         pieces++;
 
-        if (pieces == levelPieces)
+        if (pieces == 3)
         {
             //addItem(levelItem);
             collected = true;
+            GameObject.Find("LifeCounter").GetComponent<LifeCounter>().AddLife();
+            StartCoroutine(wait());
         }
+    }
+
+    private IEnumerator wait()
+    {
+        yield return new WaitForSeconds(1);
+        pieces = 0;
+        collected = false;
     }
 
     public int getPieces()
