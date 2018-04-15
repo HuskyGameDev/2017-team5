@@ -144,9 +144,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   projectile: {fileID: 1986738952941340}
-  projspeed: 3
+  projspeed: 10
   cd: 1
-  projMode: 3
+  projMode: 1
 --- !u!114 &114706982542956088
 MonoBehaviour:
   m_ObjectHideFlags: 1
