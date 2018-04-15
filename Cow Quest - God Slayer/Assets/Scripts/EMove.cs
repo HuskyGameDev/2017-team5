@@ -33,9 +33,14 @@ public class EMove : MonoBehaviour {
 
     private void Move()
     {
+<<<<<<< HEAD
         keepUpright(this.gameObject);
 
         if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy"))
+=======
+        
+        if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy") || this.gameObject.CompareTag("EndDude"))
+>>>>>>> parent of 3845df7... enemies remain upright
         {
 
 
@@ -269,12 +274,4 @@ public class EMove : MonoBehaviour {
 		vectorA = enemy.transform.position;
 		return vectorA;
 	}
-
-    void keepUpright(GameObject enemy)
-    {
-        Rigidbody2D rb2d;
-        rb2d = enemy.GetComponent<Rigidbody2D>();
-        rb2d.freezeRotation = true;
-        
-    }
 }
