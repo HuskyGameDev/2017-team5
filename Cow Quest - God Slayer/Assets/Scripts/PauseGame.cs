@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -10,7 +9,7 @@ public class PauseGame : MonoBehaviour {
 	public Transform PauseMenu;
 	public Transform HelpMenu;
 	public Transform QuitMenu;
-	public Transform HUD;
+	public Transform UI;
 
 	// pause menu buttons
 	public Button PauseResumeButton;
@@ -69,7 +68,7 @@ public class PauseGame : MonoBehaviour {
 			PauseMenu.gameObject.SetActive(true);
 			HelpMenu.gameObject.SetActive(false);
 			QuitMenu.gameObject.SetActive(false);
-			HUD.gameObject.SetActive(false);
+			UI.gameObject.SetActive(false);
 		}
 		else if (PauseMenu.gameObject.activeInHierarchy == false && QuitMenu.gameObject.activeInHierarchy == true) 
 		{
@@ -80,14 +79,14 @@ public class PauseGame : MonoBehaviour {
 		{
 			PauseMenu.gameObject.SetActive(false);
 			HelpMenu.gameObject.SetActive(false);
-			HUD.gameObject.SetActive(true);
+			UI.gameObject.SetActive(true);
 			Time.timeScale = 1;
 		}
 		else
 		{
 			PauseMenu.gameObject.SetActive(false);
 			HelpMenu.gameObject.SetActive(false);
-			HUD.gameObject.SetActive(true);
+			UI.gameObject.SetActive(true);
 			Time.timeScale = 1;
 		}
 	}
@@ -118,7 +117,7 @@ public class PauseGame : MonoBehaviour {
 			PauseMenu.gameObject.SetActive(false);
 			QuitMenu.gameObject.SetActive(false);
 			Time.timeScale = 1;
-			SceneManager.LoadScene("Menu");
+			Application.LoadLevel("Menu");
 		}
 	}
 }

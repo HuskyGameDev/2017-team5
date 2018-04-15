@@ -2,38 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class LifeCounter : MonoBehaviour 
-{
+public class LifeCounter : MonoBehaviour {
     private int lives;
     public int startlives;
     private Text lifeText;
-
-    private void Start()
-    {
+	//public ChangeScene SceneChanger;
+    private void Start(){
             lifeText = GetComponent<Text>();
             lives = startlives;
     }
 
-    private void Update()
-    {
+    private void Update(){
         lifeText.text = "Lives: " + lives;
     }
 
-    public void RemoveFromLives()
-    {
+    public void RemoveFromLives(){
         lives--;
-		if (lives <= 0)
-        {
+		if (lives <= 0){
             //lifeText.text = "Game Over";
-            SceneManager.LoadScene("death");
+			Application.LoadLevel("death");
         }
-    }
 
-    public void AddLife()
-    {
-        lives++;
     }
-
 }
