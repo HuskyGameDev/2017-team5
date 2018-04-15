@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Light Level 3.unity
+- path: Assets/Scenes/Dark_Level_3.unity.unity
   isLoaded: 1
   isActive: 1
