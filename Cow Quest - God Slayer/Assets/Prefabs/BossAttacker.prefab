@@ -111,7 +111,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -144,9 +144,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   projectile: {fileID: 1986738952941340}
-  projspeed: 3
+  projspeed: 10
   cd: 1
-  projMode: 3
+  projMode: 1
 --- !u!114 &114706982542956088
 MonoBehaviour:
   m_ObjectHideFlags: 1
