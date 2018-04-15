@@ -11,6 +11,7 @@ public class CollisionDetection : MonoBehaviour {
     bool bottom = false;
     bool enemyCollide = false;
     bool throwCollide = false;
+    bool inBossRoom = false;
     GameObject hero;
     ChangeScene chgscn = new ChangeScene();
     //life counter for enemy and throwable collision
@@ -36,6 +37,13 @@ public class CollisionDetection : MonoBehaviour {
         {
             enemyCollide = false;
         }
+<<<<<<< HEAD
+=======
+        if (collision.gameObject.CompareTag("bossFloor"))
+        {
+            inBossRoom = true;
+        }
+>>>>>>> 9af39300d26a0939acfb1d960f6d680018d56ca0
         
        
     }
@@ -69,6 +77,7 @@ public class CollisionDetection : MonoBehaviour {
         }
         if (collision.gameObject.CompareTag("bossprojectile"))
         {
+<<<<<<< HEAD
 
             throwCollide = true;
             lc.RemoveFromLives();
@@ -77,7 +86,20 @@ public class CollisionDetection : MonoBehaviour {
             //Debug.Log("Throw hit you.");
         }
     }
+=======
+>>>>>>> 9af39300d26a0939acfb1d960f6d680018d56ca0
 
+            throwCollide = true;
+            lc.RemoveFromLives();
+            hero.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
+            hero.transform.position = new Vector3(0, 0, 0);
+            //Debug.Log("Throw hit you.");
+        }
+    }
+    public bool getInBossRoom()
+    {
+        return inBossRoom;
+    }
     public bool cannotLeft()
     {
         return right;

@@ -1,4 +1,16 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Dark_Level_3.unity.unity
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- path: Assets/Scenes/Brady.unity
+=======
+- path: Assets/Scenes/Light Level 3.unity
+>>>>>>> parent of b34e3ad... Merge branch 'master' of https://github.com/HuskyGameDev/2017-team5
+=======
+- path: Assets/Scenes/Light Level 3.unity
+>>>>>>> parent of 22b3365... Dark level 3 has been fixed
+>>>>>>> 9af39300d26a0939acfb1d960f6d680018d56ca0
   isLoaded: 1
   isActive: 1

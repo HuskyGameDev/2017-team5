@@ -33,8 +33,21 @@ public class EMove : MonoBehaviour {
 
     private void Move()
     {
+<<<<<<< HEAD
+        keepUpright(this.gameObject);
+
+<<<<<<< HEAD
+        if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy"))
+=======
         
         if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy") || this.gameObject.CompareTag("EndDude"))
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3845df7... enemies remain upright
+=======
+        if (this.gameObject.CompareTag("Cat") || this.gameObject.CompareTag("BigBoy") || this.gameObject.CompareTag("EndDude"))
+>>>>>>> parent of 9d7ee56... made some boss changes
+>>>>>>> 9af39300d26a0939acfb1d960f6d680018d56ca0
         {
 
 

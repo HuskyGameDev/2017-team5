@@ -26,6 +26,12 @@ TagManager:
   - BigBoy
   - EndDude
   - bossprojectile
+<<<<<<< HEAD
+=======
+  - platformboi
+  - bossDoor
+  - bossFloor
+>>>>>>> 9af39300d26a0939acfb1d960f6d680018d56ca0
   layers:
   - Default
   - TransparentFX

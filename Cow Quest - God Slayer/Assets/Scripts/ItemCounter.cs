@@ -11,6 +11,10 @@ public class ItemCounter : MonoBehaviour {
     private Text itemText;
 
     public Text levelItem;
+<<<<<<< HEAD
+=======
+    public int collectedItems;
+>>>>>>> 9af39300d26a0939acfb1d960f6d680018d56ca0
     public int levelPieces;
 
     private void Start()

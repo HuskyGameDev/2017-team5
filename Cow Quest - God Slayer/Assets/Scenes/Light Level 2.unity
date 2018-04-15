@@ -634,7 +634,43 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
 --- !u!1001 &754036189
+=======
+--- !u!1 &760902105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 760902106}
+  m_Layer: 0
+  m_Name: LevelPack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &760902106
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760902105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.7338002, y: 0.43359414, z: -0.01795201}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 497713494}
+  - {fileID: 804877188}
+  - {fileID: 432757569}
+  - {fileID: 1390516284}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &804877187
+>>>>>>> 9af39300d26a0939acfb1d960f6d680018d56ca0
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1541,6 +1577,41 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97a334286e02bfa4b80ced76bc35f28a, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< HEAD
+=======
+--- !u!1 &1390516280 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1053687511255058, guid: 2a0e1657091e3e84a8dddaa4dbb5cb6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1252395083}
+--- !u!114 &1390516281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1390516280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cbd6d93f7e3a6947b25ec1195503231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseMenu: {fileID: 1390516284}
+  HelpMenu: {fileID: 0}
+  QuitMenu: {fileID: 0}
+  UI: {fileID: 0}
+  PauseResumeButton: {fileID: 0}
+  HelpButton: {fileID: 0}
+  QuitButton: {fileID: 0}
+  HelpResumeButton: {fileID: 0}
+  ToMenu: {fileID: 0}
+  YesQuit: {fileID: 0}
+  NoQuit: {fileID: 0}
+--- !u!224 &1390516284 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224454786841850820, guid: 2a0e1657091e3e84a8dddaa4dbb5cb6a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1252395083}
+>>>>>>> 9af39300d26a0939acfb1d960f6d680018d56ca0
 --- !u!1001 &1428612416
 Prefab:
   m_ObjectHideFlags: 0
