@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Cow Quest - God Slayer/Assets/Res.meta
 guid: 73b3efd4f965345489801c0f622b2b29
 folderAsset: yes
 timeCreated: 1524179804
+=======
+guid: c8adced67ed08d04ca8dd06aeed0453b
+folderAsset: yes
+timeCreated: 1524181771
+>>>>>>> 48aaffb076eeb46f9d6348640422e16d2c3f774c:Cow Quest - God Slayer/Assets/Res.meta
 licenseType: Free
 DefaultImporter:
   userData: 
