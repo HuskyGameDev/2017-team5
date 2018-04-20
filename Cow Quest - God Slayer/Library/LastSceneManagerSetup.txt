@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Pre-level.unity
-=======
-- path: Assets/Scenes/Light Level 1.unity
->>>>>>> 48aaffb076eeb46f9d6348640422e16d2c3f774c
+- path: Assets/Scenes/Light Level 3.unity
   isLoaded: 1
   isActive: 1
