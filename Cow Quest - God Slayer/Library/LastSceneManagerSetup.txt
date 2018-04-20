@@ -1,12 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Dark_Level_3.unity.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/Dark_Level_3.unity.unity
-=======
-- path: Assets/Scenes/Dark_Level_2.unity
->>>>>>> d73fd9c02bf53327f8641cfb505ddcc784da16bd
->>>>>>> 82b4a5733d4eea3315f4e62c49f03d01abb5e3ed
   isLoaded: 1
   isActive: 1
