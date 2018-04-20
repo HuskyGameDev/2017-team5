@@ -45,7 +45,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 111
+=======
+  controlID: 104
+>>>>>>> 02f8837b1ef599cdc289ad96dfeae96f296bfc14
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -331,14 +335,20 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\mlwalthe\Documents\GitHub\2017-team5\Cow Quest - God
+  m_LastProjectPath: C:\Users\bebilder\Documents\GitHub\2017-team5\Cow Quest - God
     Slayer
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: c0270000
     m_LastClickedID: 10176
     m_ExpandedIDs: 000000004e260000362700004a270000c0270000c6270000102800004628000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 0c280000
+    m_LastClickedID: 10252
+    m_ExpandedIDs: 000000004a26000034270000bc270000c22700000c28000042280000e428000000ca9a3bffffff7f
+>>>>>>> 02f8837b1ef599cdc289ad96dfeae96f296bfc14
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +376,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000004e260000362700004a270000c0270000c62700001028000046280000
+=======
+    m_ExpandedIDs: 000000004a26000034270000bc270000c22700000c28000042280000e4280000
+>>>>>>> 02f8837b1ef599cdc289ad96dfeae96f296bfc14
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,9 +496,15 @@ MonoBehaviour:
     height: 769
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 1afcffff00000000
+=======
+    m_SelectedIDs: a2260000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 6e6cffff52a3ffffa0a3fffff6a3fffffca3ffff40a4ffff0cf7ffff5af7ffffb0f7ffffb6f7ffffbcf8fffff4fbffff00000000
+>>>>>>> 02f8837b1ef599cdc289ad96dfeae96f296bfc14
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,7 +520,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 4}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
   - Light Level 3
@@ -534,14 +554,24 @@ MonoBehaviour:
     width: 2060
     height: 769
   m_SceneLighting: 1
+<<<<<<< HEAD
   lastFramingTime: 234.75937075820516
+=======
+  lastFramingTime: 0
+>>>>>>> 02f8837b1ef599cdc289ad96dfeae96f296bfc14
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 4.3500004, y: -6.49, z: 0}
     speed: 2
     m_Value: {x: 4.3500004, y: -6.49, z: 0}
+=======
+    m_Target: {x: 16.069244, y: -3.832744, z: 0}
+    speed: 2
+    m_Value: {x: 16.069244, y: -3.832744, z: 0}
+>>>>>>> 02f8837b1ef599cdc289ad96dfeae96f296bfc14
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -568,9 +598,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 40.742794
     speed: 2
     m_Value: 40.742794
+=======
+    m_Target: 22.915516
+    speed: 2
+    m_Value: 22.915516
+>>>>>>> 02f8837b1ef599cdc289ad96dfeae96f296bfc14
   m_Ortho:
     m_Target: 1
     speed: 2

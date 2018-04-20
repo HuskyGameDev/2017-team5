@@ -147,6 +147,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114314741285796562, guid: ac81125b66257784596e8cc914481520,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac81125b66257784596e8cc914481520, type: 2}
   m_IsPrefabParent: 0
@@ -727,6 +732,36 @@ Prefab:
     - target: {fileID: 4870067229976710, guid: b0fb56d3f13ad324d82f15c9af5248c9, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20163697407683428, guid: b0fb56d3f13ad324d82f15c9af5248c9,
+        type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0.91372555
+      objectReference: {fileID: 0}
+    - target: {fileID: 20163697407683428, guid: b0fb56d3f13ad324d82f15c9af5248c9,
+        type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.8078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 20163697407683428, guid: b0fb56d3f13ad324d82f15c9af5248c9,
+        type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.43137258
+      objectReference: {fileID: 0}
+    - target: {fileID: 20163697407683428, guid: b0fb56d3f13ad324d82f15c9af5248c9,
+        type: 2}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20163697407683428, guid: b0fb56d3f13ad324d82f15c9af5248c9,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 20163697407683428, guid: b0fb56d3f13ad324d82f15c9af5248c9,
+        type: 2}
+      propertyPath: m_BackGroundColor.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114806850167144646, guid: b0fb56d3f13ad324d82f15c9af5248c9, type: 2}
