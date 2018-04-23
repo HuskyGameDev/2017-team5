@@ -30,6 +30,10 @@ TagManager:
   - bossDoor
   - bossFloor
   - bossTeleporter
+  - TextLightLevel2
+  - TextDarkLevel2
+  - EndLight
+  - EndDark
   layers:
   - Default
   - TransparentFX

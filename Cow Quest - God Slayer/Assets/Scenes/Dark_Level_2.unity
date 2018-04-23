@@ -3430,7 +3430,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1866700783825390, guid: 719228a2973d7c64dba0fc37355ac904, type: 2}
       propertyPath: m_TagString
-      value: TextDarkLevel1
+      value: TextDarkLevel2
       objectReference: {fileID: 0}
     - target: {fileID: 1866700783825390, guid: 719228a2973d7c64dba0fc37355ac904, type: 2}
       propertyPath: m_Name

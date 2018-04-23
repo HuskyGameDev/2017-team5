@@ -72,6 +72,23 @@ public class CollisionDetection : MonoBehaviour {
         {
             chgscn.ChangeToScene("Text_Light_Level1");
         }
+        else if (collision.gameObject.CompareTag("TextDarkLevel2"))
+        {
+            chgscn.ChangeToScene("Text_Dark_Level2");
+        }
+        else if (collision.gameObject.CompareTag("TextLightLevel2"))
+        {
+            chgscn.ChangeToScene("Text_Light_Level2");
+        }
+        else if (collision.gameObject.CompareTag("EndDark"))
+        {
+            chgscn.ChangeToScene("End_Dark");
+        }
+        else if (collision.gameObject.CompareTag("EndLight"))
+        {
+            chgscn.ChangeToScene("End_Light");
+        }
+
         if (collision.gameObject.CompareTag("bossprojectile"))
         {
 
