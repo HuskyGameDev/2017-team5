@@ -65,3 +65,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dark_Level_2.unity
     guid: 2c3be87b8a323da44a9f2fe61ebad997
+  - enabled: 1
+    path: Assets/Scenes/End_Light.unity
+    guid: 1f7abab775822ad49af1b571a6737f03
+  - enabled: 1
+    path: Assets/Scenes/End_Dark.unity
+    guid: 85af9ad64aabe594da4352413a04de9e
+  - enabled: 1
+    path: Assets/Scenes/Text_Dark_Level2.unity
+    guid: 09ffac7d6b197bd4b940211dd7d34252
+  - enabled: 1
+    path: Assets/Scenes/Text_Light_Level2.unity
+    guid: df839deac0d15e9499ff2fb253e2bbb7
